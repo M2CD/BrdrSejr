@@ -1,59 +1,35 @@
 body {
-	background-color:#999;
-	color:#111;
+	background-color:#444;
 }
-a {
-	color: #f6f;
+header {
+	height:140px;
+	width:100%;
+	background-color:#000;
+	position:sticky;
+	margin-bottom:140px;
+}
+header .logo {
+	display:block;
+	position:absolute;
+	height:100px;
+	top:5px;
+	left:5px;
+}
+header .webshop {
+	position:absolute;
+	display:block;
+	right: 5px;
+	box-sizing:border-box;
+	padding: 5px 45px 5px 5px;
+	border-radius: 0 0 5px 5px;
+	background-color:#d20117;
+	background-image:url(../img/cart.png);
+	background-repeat:no-repeat;
+	background-position:160px 5px;
+	background-size:30px;
+	font-family:'Alegreya Sans SC', sans-serif;
+	font-weight:700;
+	font-size:30px;
 	text-decoration:none;
-}
-a:hover {
-	color:#0f0;
-}
-h1 {
-	font-size:1em;
-	font-family:inherit;
-	font-weight:normal;
-	color:#f00;
-	margin:0;
-	padding:0;
-}
-h2 {
-	font-size:1em;
-	font-family:inherit;
-	font-weight:normal;
-	color:#f00;
-	margin:0;
-	padding:0;
-}
-h3 {
-	font-size:1em;
-	font-family:inherit;
-	font-weight:normal;
-	color:#f00;
-	margin:0;
-	padding:0;
-}
-h4 {
-	font-size:1em;
-	font-family:inherit;
-	font-weight:normal;
-	color:#f00;
-	margin:0;
-	padding:0;
-}
-h5 {
-	font-size:1em;
-	font-family:inherit;
-	font-weight:normal;
-	color:#f00;
-	margin:0;
-	padding:0;
-}
-h6 {
-	font-size:1em;
-	font-family:inherit;
-	font-weight:normal;
-	color:#f00;
-	margin:0;
-	padding:0;
+	color:#fff;
 }
