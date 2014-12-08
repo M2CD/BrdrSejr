@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
+<?php include 'includes/top_inc.php'; ?>
 	<title>Brdr. Sejr Motorcykler ApS</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700,300italic,400italic,500italic,700italic|Alegreya+Sans+SC:500,700' rel='stylesheet' type='text/css'>
-	<link href="css/reset.css" type="text/css" rel="stylesheet">
-	<link href="css/style.css" type="text/css" rel="stylesheet">
-</head>
-<body>
-	<header>
-		<a href="#" title="Brdr. Sejr Motorcykler ApS" class="logo"><img src="img/logo.png" alt="Brdr. Sejr Motorcykler ApS"></a>
-		<a href="#" class="webshop">Køb Udstyr</a>
-		<?php include 'includes/menu_inc.php'; ?>
-	</header>
+	<?php include 'includes/css_inc.php'; ?>
+<?php include 'includes/header_inc.php'; ?>
 	<section class="slider">
+		<img src="img/slider.jpg">
 	</section>
 	<main>
 		<nav>
