@@ -33,10 +33,10 @@
 		<article class="brands">
 			<h2>Vi forhandler</h2>
 			<nav class="menu-brands">
-				<a href="#"><img src="img/brands/suzuki.png" alt="Suzuki logo"></a>
-				<a href="#"><img src="img/brands/honda.png" alt="Honda logo"></a>
-				<a href="#"><img src="img/brands/pgo.png" alt="PGO logo"></a>
-				<a href="#"><img src="img/brands/kymco.png" alt="Kymco logo"></a>
+				<a href="#"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
+				<a href="#"><img src="img/brands/honda.png" alt="Honda"></a>
+				<a href="#"><img src="img/brands/pgo.png" alt="PGO"></a>
+				<a href="#"><img src="img/brands/kymco.png" alt="Kymco"></a>
 			</nav>
 		</article>
 		<blockquote class="reviews">
@@ -47,7 +47,7 @@
 	<footer>
 		<address>Bøgegade 3 - Randersvej 36, 8200 Aarhus N, DK • Telefonnr.: 8616 3766 - 8616 3396 • E-mail: brdrsejr@brdrsejr.dk • CVR-nummer: 69955711</address>
 		<p class="open-hours store">Butikken har åbent alle dage 10:00 til 17:00</p>
-		<p class="open-hours repairs">Værkstedet hr åbent alle hverdage 9:00 til 17:00</p>
+		<p class="open-hours repairs">Værkstedet har åbent alle hverdage 9:00 til 17:00</p>
 		<p class="copyright">Copyright &copy; Brdr. Sejr Motorcykler ApS 2014</p>
 	</footer>
 	<div id="fb-root"></div>
