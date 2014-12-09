@@ -112,3 +112,37 @@ section.slider {
 		width:100%;
 		height:auto;
 	}
+nav.circles {
+	width:100%;
+	overflow:visible;
+	position:relative;
+	text-align:center;
+	margin:0 auto 20px auto;
+}
+nav.circles a {
+	display:inline-block;
+	width:220px;
+	padding-top:225px;
+	margin:20px 5% 0 5%;
+	
+	text-decoration:none;
+	color:#444;
+	font-family:'Alegreya Sans SC';
+	font-size:25px;
+	font-weight:bold;	
+}
+	nav.circles a.mc {
+		background-image:url(../img/index/mc.png);
+		background-position:top center;
+		background-repeat:no-repeat;
+	}
+	nav.circles a.rep {
+		background-image:url(../img/index/rep.png);
+		background-position:top center;
+		background-repeat:no-repeat;
+	}
+	nav.circles a.acc {
+		background-image:url(../img/index/acc.png);
+		background-position:top center;
+		background-repeat:no-repeat;
+	}

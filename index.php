@@ -6,10 +6,10 @@
 		<img src="img/slider.jpg">
 	</section>
 	<main>
-		<nav>
-			<a href="#" title="Se vores store udvalg af motorcykler">Motorcykler</a>
-			<a href="#" title="Se info omkring vores værksted">Værksted</a>
-			<a href="#" title="Køb dit udstyr her">Udstyr-shop</a>
+		<nav class="circles">
+			<a href="#" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
+			<a href="#" title="Se info omkring vores værksted" class="rep">Værksted</a>
+			<a href="#" title="Køb dit udstyr her" class="acc">Udstyr-shop</a>
 		</nav>
 		<h2>Velkommen til Brdr. Sejr</h2>
 		<p>Vi står klar til at fortælle meget mere om dit næste køretøj, kom forbi og sæt dig til rette i netop din favorit-model og få en prøvetur.</p>
