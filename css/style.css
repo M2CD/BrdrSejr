@@ -107,6 +107,7 @@ article {
 	padding-bottom:20px;
 	border-bottom: solid 1px #999;
 }
+
 /************************/
 /* PAGE SPECIFIC STYLES */
 /************************/
@@ -189,13 +190,14 @@ aside.fb-like-box {
 }
 article.brands h2 {
 	text-align:center;
+	
 }
 nav.menu-brands {
 	text-align:center;
 }
 	nav.menu-brands a {
 		display:inline-block;
-		margin: 10px 20px 0 20px;
+		margin: 10px 20px 20px 20px;
 		width:175px;
 		-webkit-filter: grayscale(100%);
 	}
@@ -203,7 +205,9 @@ nav.menu-brands {
 			-webkit-filter: grayscale(0%);
 		}
 blockquote {
+	width:100%;
 	min-height:300px;
+	margin:40px auto 0 auto;
 	background-image:url(../img/quote.png), url(../img/quote2.png);
 	background-position: top left, bottom right;
 	background-repeat:no-repeat;
@@ -225,5 +229,22 @@ blockquote p cite {
 	font-weight:300;
 }
 blockquote p strong {
+	font-weight:500;
+}
+/************************/
+/******** FOOTER ********/
+/************************/
+
+footer {
+	padding:20px 0 20px 0;
+	width:100%;
+	background-color:#000;
+	color:#ccc;
+	text-align:center;
+	font-weight:300;
+}
+footer .open-hours {
+	display:inline-block;
+	margin:20px;
 	font-weight:500;
 }
