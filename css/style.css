@@ -159,6 +159,13 @@ article.welcome h2, article.welcome p {
 	margin-right:50px;
 	float:left;
 }
+article p {
+	font-size:20px;
+	font-weight:300;
+	line-height:25px;
+	margin:0px auto 10px auto;
+}
+
 aside.trustpilot {
 	float:right;
 }
@@ -173,11 +180,11 @@ aside.trustpilot {
 		background-image:url(../img/index/trustpilot.png);
 		background-position:bottom center;
 		background-repeat:no-repeat;
-		margin-top:-80px;
+		margin-top:-130px;
 	}
 aside.fb-like-box {
 	float:right;
-	margin-top:-20px;
+	margin-top:-60px;
 	width:240px;
 }
 article.brands h2 {
@@ -196,11 +203,27 @@ nav.menu-brands {
 			-webkit-filter: grayscale(0%);
 		}
 blockquote {
-	min-height:150px;
-	
+	min-height:300px;
+	background-image:url(../img/quote.png), url(../img/quote2.png);
+	background-position: top left, bottom right;
+	background-repeat:no-repeat;
 }
 blockquote h2 {
 	text-align:center;
-	margin:20px;
-	
+	margin:0 auto 10px auto;
+}
+blockquote p {
+	width:60%;
+	max-width:800px;
+	margin:50px auto 0 auto;
+	font-size:20px;
+	text-align:center;
+	line-height:25px;
+}
+blockquote p cite {
+	font-style:italic;
+	font-weight:300;
+}
+blockquote p strong {
+	font-weight:500;
 }

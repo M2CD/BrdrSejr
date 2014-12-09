@@ -41,7 +41,7 @@
 		</article>
 		<blockquote class="reviews">
 			<h2>Hvad siger kunderne?</h2>
-			<p><cite>"Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)"</cite><br><strong>- Marius Jensen Lyseggen</strong></p>
+			<p><cite>Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</cite><br><strong>- Marius Jensen Lyseggen</strong></p>
 		</blockquote>
 	</main>
 	<footer>
