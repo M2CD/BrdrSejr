@@ -5,10 +5,8 @@
 <?php include 'includes/header_inc.php'; ?>
 	<section class="slider">
 		<ul class="bxslider">
-			<li><img src="img/index/slider01.jpg" /></li>
-			<li><img src="img/index/slider02.jpg" /></li>
-			<li><img src="img/index/slider03.jpg" /></li>
-			<li><h1>HERRO</h1></li>
+			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/3B_tk5cmvEE?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
+			<li><img src="img/index/slider01.jpg"></li>
 		</ul>
 	</section>
 	<main>
@@ -47,7 +45,11 @@
 		</article>
 		<blockquote class="reviews">
 			<h2>Hvad siger kunderne?</h2>
-			<p><cite>Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</cite><br><strong>- Marius Jensen Lyseggen</strong></p>
+			<ul class="bxslider">
+				<li><p><cite>Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</cite><br><strong>- Marius Jensen Lyseggen</strong></p></li>
+				<li><p><cite>FOR SATAN DA BOBBY!! der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</cite><br><strong>- Marius Jensen Lyseggen</strong></p></li>
+			</ul>
+			
 		</blockquote>
 	</main>
 <?php include 'includes/footer_inc.php'; ?>
@@ -69,7 +71,11 @@
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){
-		  $('.bxslider').bxSlider();
+		  $('.bxslider').bxSlider({
+			  video: true,
+			  auto: true
+			  
+		  });
 		});
 	</script>
 </body>
