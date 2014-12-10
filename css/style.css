@@ -128,12 +128,21 @@ section.slider img {
 	width:100%;
 	height:auto;
 }
+.bx-wrapper .bx-viewport {
+	border:none;
+	left:0;
+	box-shadow:0 3px 5px #333;
+	-webkit-box-shadow: 0 3px 5px #333;
+}
+.bx-wrapper {
+	margin-bottom:0;
+}
 nav.circles {
 	width:100%;
 	overflow:visible;
 	position:relative;
 	text-align:center;
-	margin:0 auto 20px auto;
+	margin:40px auto 20px auto;
 }
 nav.circles a {
 	display:inline-block;

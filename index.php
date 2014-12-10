@@ -1,9 +1,15 @@
 <?php include 'includes/top_inc.php'; ?>
 	<title>Brdr. Sejr Motorcykler ApS</title>
 	<?php include 'includes/css_inc.php'; ?>
+	<link href="plugins/bxslider/css/jquery.bxslider.css" rel="stylesheet">
 <?php include 'includes/header_inc.php'; ?>
 	<section class="slider">
-		<img src="img/slider.jpg">
+		<ul class="bxslider">
+			<li><img src="img/index/slider01.jpg" /></li>
+			<li><img src="img/index/slider02.jpg" /></li>
+			<li><img src="img/index/slider03.jpg" /></li>
+			<li><h1>HERRO</h1></li>
+		</ul>
 	</section>
 	<main>
 		<nav class="circles">
@@ -44,12 +50,7 @@
 			<p><cite>Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</cite><br><strong>- Marius Jensen Lyseggen</strong></p>
 		</blockquote>
 	</main>
-	<footer>
-		<address>Bøgegade 3 - Randersvej 36, 8200 Aarhus N, DK • Telefonnr.: 8616 3766 - 8616 3396 • E-mail: brdrsejr@brdrsejr.dk • CVR-nummer: 69955711</address>
-		<p class="open-hours store">Butikken har åbent alle dage 10:00 til 17:00</p>
-		<p class="open-hours repairs">Værkstedet har åbent alle hverdage 9:00 til 17:00</p>
-		<p class="copyright">Copyright &copy; Brdr. Sejr Motorcykler ApS 2014</p>
-	</footer>
+<?php include 'includes/footer_inc.php'; ?>
 	<div id="fb-root"></div>
 	<script>
 		(function(d, s, id) {
@@ -61,7 +62,15 @@
 		}
 		(document, 'script', 'facebook-jssdk'));
 	</script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="js/script.js" type="text/javascript"></script>
+	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
+	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
+	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script>
+		//Run slider plugin
+		$(document).ready(function(){
+		  $('.bxslider').bxSlider();
+		});
+	</script>
 </body>
 </html>
