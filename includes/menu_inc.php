@@ -1,9 +1,27 @@
 <nav class="menu-main">
 			<ul>
 				<li><a href="#">Forside</a></li>
-				<li><a href="#">Brdr. Sejr</a></li>
-				<li><a href="#">Motorcykler</a></li>
-				<li><a href="#">Scooter/ATV/EasyGo</a></li>
+				<li><a>Brdr. Sejr</a>
+					<ul class="submenu">
+						<li><a href="#">Historie</a></li>
+						<li><a href="#">Personale</a></li>
+						<li><a href="#">Nyheder</a></li>
+					</ul>
+				</li>
+				<li><a>Motorcykler</a>
+					<ul class="submenu">
+						<li><a href="#">Nye Motorcykler</a></li>
+						<li><a href="#" class="inactive">Brugte Motorcykler</a></li>
+					</ul>
+				</li>
+				<li><a>Scooter/ATV/EasyGo</a>
+					<ul class="submenu">
+						<li><a href="#" class="inactive">Nye Scootere</a></li>
+						<li><a href="#" class="inactive">Bugte Scootere</a></li>
+						<li><a href="#" class="inactive">ATV</a></li>
+						<li><a href="#" class="inactive">EasyGo</a></li>
+					</ul>
+				</li>
 				<li><a href="#">Værksted</a></li>
 				<li><a href="#">Kontakt</a></li>
 			</ul>
