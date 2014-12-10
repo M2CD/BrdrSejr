@@ -71,9 +71,17 @@
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){
-		  $('.bxslider').bxSlider({
+		  $('.slider .bxslider').bxSlider({
 			  video: true,
 			  auto: true
+		  });
+		  $('.reviews .bxslider').bxSlider({
+			  auto: true,
+			  randomStart: true,
+			  controls:false,
+			  pause:10000,
+			  speed:1000
+			  
 			  
 		  });
 		});
