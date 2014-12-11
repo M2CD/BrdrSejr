@@ -16,6 +16,7 @@
 		font-family:'Fira Sans', sans-serif;
 		color:#333;
 		font-size:16px;
+		min-width:350px;
 	}
 }
 
@@ -251,6 +252,7 @@ a {
 /***** MAIN CONTENT *****/
 /************************/
 main {
+	overflow:auto;
 	width:100%;
 	margin:0 auto;
 	padding:20px 2% 20px 2%;;
@@ -300,12 +302,62 @@ article {
 .bx-wrapper {
 	margin-bottom:0;
 }
+/* Social interactions */
+.social {
+	margin-top:40px;
+	margin-bottom:30px;
+}
+aside.trustpilot a {
+	display:block;
+	text-decoration:none;
+	color:#444;
+	font-weight:500;
+	padding-bottom:43px;
+	background-image:url(../img/index/trustpilot.png);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	margin:10px auto 0 auto;
+}
+@media screen and (min-width:1000px) {
+	.social aside.trustpilot {
+		text-align:right;
+	}
+	.social aside.trustpilot a {
+		background-position:bottom right;
+		margin-right:20px;
+	}
+	.social aside.facebook {
+		text-align:left;
+	}
+}
+@media screen and (min-width:700px) {
+	.social aside {
+		float:left;
+		width:50%;
+		text-align:center;
+	}
+}
+@media screen and (max-width:700px) {
+	.social aside {
+		width:100%;
+		text-align:center;
+	}
+	.social aside.facebook {
+		text-indent:30px;
+	}
+}
+@media screen and (max-width:400px) {
+	.welcome .social aside.facebook {
+		text-indent:18px;
+	}
+}
 /************************/
 /* PAGE SPECIFIC STYLES */
 /************************/
 
-/* Index.php */
-
+/****** Index.php ******/
+	
+/* Secondary navigation */
 nav.circles {
 	width:100%;
 	overflow:visible;
@@ -340,48 +392,12 @@ nav.circles a {
 		background-position:top center;
 		background-repeat:no-repeat;
 	}
-
-aside.trustpilot a {
-	display:block;
-	text-decoration:none;
-	color:#444;
-	font-weight:500;
-	padding-bottom:43px;
-	background-image:url(../img/index/trustpilot.png);
-	background-position:bottom left;
-	background-repeat:no-repeat;
-	margin:10px;
-
-}
-@media screen and (min-width:1000px) {
-	article.welcome h2, article.welcome p {
-		width:60%;
+/* Social */
+	.welcome {
+		overflow:auto;
 	}
 
-	.welcome aside.trustpilot {
-		float:right;
-	}
-		aside.trustpilot a {
-			display:block;
-			text-decoration:none;
-			color:#444;
-			font-weight:500;
-			padding-bottom:43px;
-			width:240px;
-			text-align:center;
-			background-image:url(../img/index/trustpilot.png);
-			background-position:bottom center;
-			background-repeat:no-repeat;
-		}
-		.welcome aside.trustpilot a {
-			margin-top:-130px;
-		}
-	.welcome aside .fb-like-box {
-		float:right;
-		margin-top:-60px;
-		width:240px;
-	}
-}
+/* brands navigation */
 article.brands h2 {
 	text-align:center;
 	margin-top:40px;
@@ -389,7 +405,11 @@ article.brands h2 {
 nav.menu-brands {
 	text-align:center;
 }
-	nav.menu-brands a {
+nav.menu-brands a {
+	margin:10px;
+}
+@media screen and (min-width:700px) {	/* Only grayscale on desktop */
+	nav.menu-brands a {					/* Mobile doesn't have hover */
 		display:inline-block;
 		margin: 10px 20px 20px 20px;
 		width:175px;
@@ -398,8 +418,9 @@ nav.menu-brands {
 		nav.menu-brands a:hover {
 			-webkit-filter: grayscale(0%);
 		}
-
-blockquote { /* Reviews at bottom of page */
+}
+/* Reviews at bottom of page */
+blockquote { 
 	width:100%;
 	padding-bottom:34px;
 	margin:40px auto 0 auto;
@@ -446,6 +467,77 @@ blockquote .bx-wrapper .bx-viewport {
 		margin:50px auto 0 auto;
 	}
 }
+
+/***** historie.php *****/
+article.content {
+    width: 90%;
+}
+
+article.content h1 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+article.content h2 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+article.content p {
+    font-size: 20px;
+}
+
+img.historie_butik {
+    float: right;
+    display: inline-block;
+    width: 40%;
+    padding: 75px 10px 0px 10px;
+}
+
+img.historie_nybutik {
+    float: left;
+    display: inline-block;
+    width: 40%;
+    padding: 50px 10px 0px 10px;
+}
+
+/**** personale.php  ****/
+
+section.personale article {
+    width: 50%;
+    border-style: none;
+    float: left;
+}
+section.personale img {
+    width: 40%;
+    float: left
+}
+section.personale ol {
+	width:60%;
+	float:right;
+}
+
+section.personale li {
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 30px;
+}
+
+section.personale .rolle {
+    font-size: 22px;
+    font-weight: bold;
+}
+@media screen and (max-width:1000px) { /* Tablet and mobile view */
+	section.personale article {
+		width:100%;
+		float:none;
+	}
+	section.personale img {
+		width:50%;
+	}
+}
+
 /************************/
 /******** FOOTER ********/
 /************************/

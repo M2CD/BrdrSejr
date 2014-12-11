@@ -2,16 +2,13 @@
 	<title>Brdr. Sejr Motorcykler ApS</title>
 	<?php include 'includes/css_inc.php'; ?>
 	<link href="plugins/bxslider/css/jquery.bxslider.css" rel="stylesheet">
-
-<!--Her er linket til custom css fil - mikkel-->
-    <link href="css/underside.css" rel="stylesheet">
     <link href="plugins/lightbox/css/lightbox.css" rel="stylesheet">
 
 <?php include 'includes/header_inc.php'; ?>
 
     <main>
         <article class="content">
-            <h1>Historie</h1>
+            <h2>Historie</h2>
                 <p>
         Brdr. Sejr Motorcyklers historie rækker langt tilbage i tid, men er stadig en af de førende motorcykelforhandlere i Aarhus.</p>
            <a href="img/historie/gammelbutik.jpg" data-lightbox="personale" data-title="Stiften.dk 06-01-09"><img src="img/historie/gammelbutik.jpg" class="historie_butik" alt="Brdr. Sejr gammel butik"></a> 
@@ -39,6 +36,7 @@ Tina Sejr, Niels Sejr og Benny Haslev indgår herefter som medejere af Brdr.Sejr
 I 2011 går Erik Sejr og hans kone Linda Sejr på pension: Linda Sejr som gennem alle årene har været den faste "klippe" på kontoret. Erik og Linda er dog stadig tilknyttet firmaet i form af ejerskabet af bygningerne.</p>
         
         </article>
+		<?php include 'includes/social_inc.php'; ?>
 	</main>
 
 <?php include 'includes/footer_inc.php'; ?>
@@ -56,5 +54,6 @@ I 2011 går Erik Sejr og hans kone Linda Sejr på pension: Linda Sejr som gennem
 	</script>
     <script src="plugins/lightbox/js/jquery-1.11.0.min.js"></script>
 	<script src="plugins/lightbox/js/lightbox.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

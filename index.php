@@ -20,21 +20,8 @@
 			<p>Vi står klar til at fortælle meget mere om dit næste køretøj, kom forbi og sæt dig til rette i netop din favorit-model og få en prøvetur.</p>
 			<p>Kom ind og se vore store udvalg SUZUKI og HONDA motercykler samt PGO scootere</p>
 			<p><strong>Hjælpen er lige om hjørnet</strong></p>
-		
-			<aside class="trustpilot">
-				<a href="#">Anmeld os på TrustPilot</a>
-			</aside>
-			<aside class="facebook">
-				<div
-					 class="fb-like-box"
-					 data-href="https://www.facebook.com/pages/BrdrSejr-Motorcykler-ApS/176834855685134"
-					 data-colorscheme="light"
-					 data-show-faces="false"
-					 data-header="false"
-					 data-stream="false"
-					 data-show-border="false">
-				</div>
-			</aside>
+			
+			<?php include 'includes/social_inc.php'; ?>	
 		</article>
 		<article class="brands">
 			<h2>Vi forhandler</h2>
@@ -55,17 +42,6 @@
 		</blockquote>
 	</main>
 <?php include 'includes/footer_inc.php'; ?>
-	<div id="fb-root"></div>
-	<script>
-		(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=30274178883&version=v2.0";
-			fjs.parentNode.insertBefore(js, fjs);
-		}
-		(document, 'script', 'facebook-jssdk'));
-	</script>
 	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
