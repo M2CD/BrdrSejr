@@ -277,18 +277,18 @@ article {
 /************************/
 
 /* Index.php */
+
+section.slider {
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
 @media screen and (min-width:1100px) { /* desktop view */
 	section.slider {
 		width:75%;
 		min-width:1100px;
 	}
 }
-section.slider {
-	width:100%;
-	height:auto;
-	margin:0 auto;
-}
-
 	section.slider img {
 		width:100%;
 	}
