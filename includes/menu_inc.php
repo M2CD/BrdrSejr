@@ -3,8 +3,8 @@
 				<li><a href="#">Forside</a></li>
 				<li><a>Brdr. Sejr</a>
 					<ul class="submenu">
-						<li><a href="#">Historie</a></li>
-						<li><a href="#">Personale</a></li>
+						<li><a href="historie.php">Historie</a></li>
+						<li><a href="personale.php">Personale</a></li>
 						<li><a href="#">Nyheder</a></li>
 					</ul>
 				</li>
