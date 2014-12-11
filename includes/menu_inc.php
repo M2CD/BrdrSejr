@@ -1,6 +1,6 @@
 <nav class="menu-main">
 			<ul>
-				<li><a href="#">Forside</a></li>
+				<li><a href="index.php">Forside</a></li>
 				<li><a>Brdr. Sejr</a>
 					<ul class="submenu">
 						<li><a href="historie.php">Historie</a></li>
@@ -22,7 +22,7 @@
 						<li><a href="#" class="inactive">EasyGo</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Værksted</a></li>
-				<li><a href="#">Kontakt</a></li>
+				<li><a href="repairshop.php">Værksted</a></li>
+				<li><a href="contact.php">Kontakt</a></li>
 			</ul>
 		</nav>
