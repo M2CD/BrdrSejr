@@ -1,143 +1,272 @@
-body {
-	background-image:url(../img/bg.jpg);
-	background-attachment: fixed;
-	background-size:cover;
-	background-color:#444;
-	margin-top:100px;
-	font-family:'Fira Sans', sans-serif;
-	color:#333;
-	font-size:16px;
+@media screen and (min-width: 1000px) { /* Desktop view */
+	body {
+		background-image:url(../img/bg.jpg);
+		background-attachment: fixed;
+		background-size:cover;
+		background-color:#444;
+		margin-top:100px;
+		font-family:'Fira Sans', sans-serif;
+		color:#333;
+		font-size:20px;
+	}
 }
+@media screen and (max-width:1200px) { /* Tablet view */
+	body {
+		margin-top:60px;
+		font-family:'Fira Sans', sans-serif;
+		color:#333;
+		font-size:16px;
+	}
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family:'Alegreya Sans SC';
 }
 h2 {font-weight:700; font-size:2.5em}
 
 p {
-	font-size:20px;
+	font-size:1em;
 	font-weight:300;
 	line-height:25px;
 }
+strong {
+	font-weight:500;
+}
 a {
 	cursor:pointer;
+	color:#001fd4;
+	text-decoration:underline;
+}
+	a:hover {
+		color:#444;
+	}
+@media screen and (max-width:500px) {
+	h2 {font-size:2em}
+	h3 {font-size:1.5em}
+	p {}
 }
 /******************/
 /***** HEADER *****/
 /******************/
-header {
-	height:100px;
-	width:100%;
-	background-color:#000;
-	background-image:url(../img/header-bg.jpg);
-	background-size:cover;
-	z-index:10000;
-	position:fixed;
-	top:0;
-	box-shadow:0 0 10px #333;
-}
-header .logo {
-	display:block;
-	position:absolute;
-	height:90px;
-	top:5px;
-	left:5px;
-}
-	header .logo img {
-		height:100%;
+@media screen and (min-width: 1200px) { /*Desktop view */
+	
+
+	header {
+		height:100px;
+		width:100%;
+		background-color:#000;
+		background-image:url(../img/header-bg.jpg);
+		background-size:cover;
+		z-index:10000;
+		position:fixed;
+		top:0;
+		box-shadow:0 0 10px #333;
 	}
-header .webshop {
-	position:absolute;
-	display:block;
-	right: 5px;
-	padding: 5px 45px 5px 5px;
-	border-radius: 0 0 5px 5px;
-	background-color:#d20117;
-	background-image:url(../img/cart.png);
-	background-repeat:no-repeat;
-	background-position:122px 7px;
-	background-size:20px;
-	font-family:'Alegreya Sans SC', sans-serif;
-	font-weight:700;
-	font-size:20px;
-	text-decoration:none;
-	color:#fff;
-}
-	header .webshop:hover {
-		padding-top:10px;
-		background-position: 122px 12px;
+	header .menu-toggle {
+		display:none;
 	}
+	header .logo {
+		display:block;
+		position:absolute;
+		height:90px;
+		top:5px;
+		left:5px;
+	}
+		header .logo img {
+			height:100%;
+		}
+	header .webshop {
+		position:absolute;
+		display:block;
+		right: 5px;
+		padding: 5px 45px 5px 5px;
+		border-radius: 0 0 5px 5px;
+		background-color:#d20117;
+		background-image:url(../img/cart.png);
+		background-repeat:no-repeat;
+		background-position:122px 7px;
+		background-size:20px;
+		font-family:'Alegreya Sans SC', sans-serif;
+		font-weight:700;
+		font-size:20px;
+		text-decoration:none;
+		color:#fff;
+	}
+		header .webshop:hover {
+			padding-top:10px;
+			background-position: 122px 12px;
+		}
+}
+@media screen and (max-width:1200px) { /* Tablet and mobile view */
+	
+
+	header {
+		height:60px;
+		width:100%;
+		background-color:#000;
+		background-size:cover;
+		z-index:10000;
+		position:fixed;
+		top:0;
+		box-shadow:0 0 10px #333;
+	}
+	header .menu-toggle {
+		position:absolute;
+		display:block;
+		width: 40px;
+		height: 40px;
+		top:10px;
+		left:10px;
+	}
+	header .logo {
+		display:block;
+		position:absolute;
+		height:50px;
+		width:33%;
+		text-align:center;
+		padding:5px;
+		left:33%;
+		
+	}
+		header .logo img {
+			height:100%;
+		}
+	header .webshop {
+		position:absolute;
+		display:block;
+		width:0;
+		height:0;
+		text-indent:-99999px;
+		right: 10px;
+		top:10px;
+		padding: 20px;
+		background-image:url(../img/cart.png);
+		background-repeat:no-repeat;
+		background-size:40px;
+	}
+}
 /******************/
 /****** MENU ******/
 /******************/
+@media screen and (min-width:1200px) {
+	nav.menu-main {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		height:40px;
+		margin:0 auto;
 
-nav.menu-main {
-	position:absolute;
-	bottom:0;
-	width:100%;
-	height:40px;
-	margin:0 auto;
-	
+	}
+	nav.menu-main ul {
+		max-width:1000px;
+		height:40px;
+		margin:0 auto;
+
+	}
+	nav.menu-main ul li {
+		display:block;
+		width:16%;
+		float:left;
+	}
+		nav.menu-main ul li a {
+			display:block;
+			width:100%;
+			text-decoration:none;
+			font-family:'Alegreya Sans SC', sans-serif;
+			font-weight:700;
+			font-size:17px;
+			color:#fff;
+			line-height:40px;
+			text-align:center;
+		}
+			nav.menu-main ul li a:hover {
+				color:#999;
+			}
+	nav.menu-main ul li ul.submenu {
+		box-shadow: 2px 0px 10px #000;
+	}
+	nav.menu-main ul li .submenu li {
+		display:list-item;
+		float:none;
+		width:100%;
+		background-color:#111;
+		box-shadow: inset 0 0 25px #101010;
+	}
+		nav.menu-main ul li .submenu li:hover {
+			background-color: #151515;
+		}
+	nav.menu-main ul li ul.submenu {
+		display:none;
+		position: relative;
+		height: auto;
+	}
+		.menu-main li:hover > ul.submenu {
+			display:block;
+		}
 }
-nav.menu-main ul {
-	max-width:1000px;
-	height:40px;
-	margin:0 auto;
-	
-}
-nav.menu-main ul li {
-	display:block;
-	width:16%;
-	float:left;
-}
-	nav.menu-main ul li a {
+@media screen and (max-width:1200px) {
+	.menu-main {
+		left:-50%;
+		position:absolute;
+		width:50%;
+		height:3000px;
+		top:60px;
+		background-color:#111;
+		transition-duration: 0.5s;
+	}
+	.menu-main ul li {
 		display:block;
 		width:100%;
-		text-decoration:none;
-		font-family:'Alegreya Sans SC', sans-serif;
-		font-weight:700;
-		font-size:17px;
-		color:#fff;
-		line-height:40px;
-		text-align:center;
+		border-bottom:solid #000 1px;
 	}
-		nav.menu-main ul li a:hover {
-			color:#999;
-		}
-nav.menu-main ul li ul.submenu {
-	box-shadow: 2px 0px 10px #000;
-}
-nav.menu-main ul li .submenu li {
-	display:list-item;
-	float:none;
-	width:100%;
-	background-color:#111;
-	box-shadow: inset 0 0 25px #101010;
-}
-	nav.menu-main ul li .submenu li:hover {
-		background-color: #151515;
-	}
-nav.menu-main ul li ul.submenu {
-	display:none;
-	position: relative;
-	height: auto;
-}
-	.menu-main li:hover > ul.submenu {
+	.menu-main ul li a {
 		display:block;
+		width:100%;
+		line-height:50px;
+		text-align:center;
+		color:#fff;
+		text-decoration:none;
 	}
+		.submenu {
+			display:none;
+			background-color:#222;
+			box-shadow:inset 0 5px 20px #111;
+			border-bottom:solid #111 1px;
+			transition-duration:0.5s;
+			
+			
+		}
+	.menu-main.show {
+		left:0;
+		transition-duration: 0.5s;
+	}
+}
+@media screen and (max-width:500px) { /* Mobile view */
+	.menu-main {
+		width:100%;
+		left:-100%;
+	}
+}
 /************************/
 /***** MAIN CONTENT *****/
 /************************/
 main {
-	width:70%;
-	min-width:1000px;
+	width:100%;
 	margin:0 auto;
 	padding:20px 2% 20px 2%;;
 	box-sizing:border-box;
 	background-color:#fff;
 	
 }
+@media screen and (min-width:1000px) { /* Desktop view */
+	main {
+		width:70%;
+		min-width:1000px;
+	}
+}
 
 article {
+	width:100%;
 	margin: 20px auto 10px auto;
 	padding-bottom:40px;
 	border-bottom: solid 1px #999;
@@ -148,12 +277,18 @@ article {
 /************************/
 
 /* Index.php */
+@media screen and (min-width:1100px) { /* desktop view */
+	section.slider {
+		width:75%;
+		min-width:1100px;
+	}
+}
 section.slider {
-	width:75%;
-	min-width:1100px;
+	width:100%;
 	height:auto;
 	margin:0 auto;
 }
+
 	section.slider img {
 		width:100%;
 	}
@@ -200,33 +335,44 @@ nav.circles a {
 		background-position:top center;
 		background-repeat:no-repeat;
 	}
-article.welcome {
-	width:100%;
-}
-article.welcome h2, article.welcome p {
-	width:60%;
-}
-
-aside.trustpilot {
-	float:right;
-}
-	aside.trustpilot a {
-		display:block;
-		text-decoration:none;
-		color:#444;
-		font-weight:500;
-		padding-bottom:43px;
-		width:240px;
-		text-align:center;
-		background-image:url(../img/index/trustpilot.png);
-		background-position:bottom center;
-		background-repeat:no-repeat;
-		margin-top:-130px;
+@media screen and (min-width:1000px) {
+	article.welcome h2, article.welcome p {
+		width:60%;
 	}
-aside.fb-like-box {
-	float:right;
-	margin-top:-60px;
-	width:240px;
+
+	aside.trustpilot {
+		float:right;
+	}
+		aside.trustpilot a {
+			display:block;
+			text-decoration:none;
+			color:#444;
+			font-weight:500;
+			padding-bottom:43px;
+			width:240px;
+			text-align:center;
+			background-image:url(../img/index/trustpilot.png);
+			background-position:bottom center;
+			background-repeat:no-repeat;
+			margin-top:-130px;
+		}
+	aside.fb-like-box {
+		float:right;
+		margin-top:-60px;
+		width:240px;
+	}
+}
+aside.trustpilot a {
+	display:block;
+	text-decoration:none;
+	color:#444;
+	font-weight:500;
+	padding-bottom:43px;
+	background-image:url(../img/index/trustpilot.png);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	margin:10px;
+
 }
 article.brands h2 {
 	text-align:center;
@@ -244,12 +390,13 @@ nav.menu-brands {
 		nav.menu-brands a:hover {
 			-webkit-filter: grayscale(0%);
 		}
-blockquote {
+
+blockquote { /* Reviews at bottom of page */
 	width:100%;
-	min-height:300px;
+	padding-bottom:34px;
 	margin:40px auto 0 auto;
-	background-image:url(../img/quote.png), url(../img/quote2.png);
-	background-position: top left, bottom right;
+	background-image:url(../img/quote.png);
+	background-position: top left;
 	background-repeat:no-repeat;
 }
 blockquote h2 {
@@ -257,10 +404,8 @@ blockquote h2 {
 	margin:0 auto 10px auto;
 }
 blockquote p {
-	width:60%;
-	max-width:800px;
-	margin:50px auto 0 auto;
-	font-size:20px;
+	margin:2% auto;
+	font-size:1em;
 	text-align:center;
 	line-height:25px;
 }
@@ -276,6 +421,22 @@ blockquote .bx-wrapper .bx-viewport {
 	box-shadow:none;
 	-webkit-box-shadow: none;
 	background-color:transparent;
+}
+.bx-pager {
+	margin-top:0;
+}
+@media screen and (min-width:1000px){ /* desktio view */
+	blockquote {
+		min-height:300;
+		background-image:url(../img/quote.png), url(../img/quote2.png);
+		background-position: top left, bottom right;
+		background-repeat:no-repeat;
+	}
+	blockquote p {
+		width:60%;
+		max-width:800px;
+		margin:50px auto 0 auto;
+	}
 }
 /************************/
 /******** FOOTER ********/
