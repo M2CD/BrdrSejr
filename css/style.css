@@ -335,12 +335,25 @@ nav.circles a {
 		background-position:top center;
 		background-repeat:no-repeat;
 	}
+
+aside.trustpilot a {
+	display:block;
+	text-decoration:none;
+	color:#444;
+	font-weight:500;
+	padding-bottom:43px;
+	background-image:url(../img/index/trustpilot.png);
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	margin:10px;
+
+}
 @media screen and (min-width:1000px) {
 	article.welcome h2, article.welcome p {
 		width:60%;
 	}
 
-	aside.trustpilot {
+	.welcome aside.trustpilot {
 		float:right;
 	}
 		aside.trustpilot a {
@@ -354,25 +367,15 @@ nav.circles a {
 			background-image:url(../img/index/trustpilot.png);
 			background-position:bottom center;
 			background-repeat:no-repeat;
+		}
+		.welcome aside.trustpilot a {
 			margin-top:-130px;
 		}
-	aside.fb-like-box {
+	.welcome aside .fb-like-box {
 		float:right;
 		margin-top:-60px;
 		width:240px;
 	}
-}
-aside.trustpilot a {
-	display:block;
-	text-decoration:none;
-	color:#444;
-	font-weight:500;
-	padding-bottom:43px;
-	background-image:url(../img/index/trustpilot.png);
-	background-position:bottom left;
-	background-repeat:no-repeat;
-	margin:10px;
-
 }
 article.brands h2 {
 	text-align:center;
