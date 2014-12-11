@@ -272,27 +272,26 @@ article {
 	border-bottom: solid 1px #999;
 }
 
-/************************/
-/* PAGE SPECIFIC STYLES */
-/************************/
-
-/* Index.php */
-
-section.slider {
+/* Content slider */
+.theater {
 	width:100%;
 	height:auto;
 	margin:0 auto;
 }
+.showroom {
+	width:100%;
+	height:auto;
+}
 @media screen and (min-width:1100px) { /* desktop view */
-	section.slider {
+	.theater {
 		width:75%;
 		min-width:1100px;
 	}
 }
-	section.slider img {
+	.slider img {
 		width:100%;
 	}
-.bx-wrapper .bx-viewport {
+.theater .bx-wrapper .bx-viewport {
 	border:none;
 	left:0;
 	box-shadow:0px 0px 5px #000;
@@ -301,6 +300,12 @@ section.slider {
 .bx-wrapper {
 	margin-bottom:0;
 }
+/************************/
+/* PAGE SPECIFIC STYLES */
+/************************/
+
+/* Index.php */
+
 nav.circles {
 	width:100%;
 	overflow:visible;
