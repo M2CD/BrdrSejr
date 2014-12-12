@@ -26,10 +26,10 @@
 		<article class="brands">
 			<h2>Vi forhandler</h2>
 			<nav class="menu-brands">
-				<a href="#"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
-				<a href="#"><img src="img/brands/honda.png" alt="Honda"></a>
-				<a href="#"><img src="img/brands/pgo.png" alt="PGO"></a>
-				<a href="#"><img src="img/brands/kymco.png" alt="Kymco"></a>
+				<a href="nyemotorcykler.php"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
+				<a href="nyemotorcykler.php"><img src="img/brands/honda.png" alt="Honda"></a>
+				<a href="nyemotorcykler.php"><img src="img/brands/pgo.png" alt="PGO"></a>
+				<a href="nyemotorcykler.php"><img src="img/brands/kymco.png" alt="Kymco"></a>
 			</nav>
 		</article>
 		<blockquote class="reviews">
