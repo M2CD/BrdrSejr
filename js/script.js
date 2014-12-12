@@ -1,3 +1,14 @@
+function heightResize(){
+		var docHeight = $(window).height(); // height of window
+	var mainHeight = $('main').height(); // height of <main> element
+	var footerHeight = $('footer').height(); // height of <footer> element
+	var footerTop = $('footer').position().top + footerHeight; // height of all content on page
+
+	if (footerTop < docHeight) { // make <main>'s min-height fill extra space
+	$('main').css('min-height', (docHeight - footerTop) + mainHeight + 'px');
+	}
+}
+
 $(document).ready(function(){
 	
 	// MOBILE MENU TOGGLE
@@ -8,28 +19,12 @@ $(document).ready(function(){
 		$(this).children('ul.submenu').slideToggle(200);
 	});
 	
-	// Make main full height of window
-	var docHeight = $(window).height();
-	var mainHeight = $('main').height();
-	var footerHeight = $('footer').height();
-	var footerTop = $('footer').position().top + footerHeight;
+	heightResize();
 
-	if (footerTop < docHeight) {
-	$('main').css('height', (docHeight - footerTop) + mainHeight + 'px');
-	}
-	
 });
-// adjust Main height when window is resized
-$(window).resize(function(){
-	var docHeight = $(window).height();
-	var mainHeight = $('main').height();
-	var footerHeight = $('footer').height();
-	var footerTop = $('footer').position().top + footerHeight;
-
-	if (footerTop < docHeight) {
-	$('main').css('height', (docHeight - footerTop) + mainHeight + 'px');
-	}
-	if (footerTop > docHeight) {
-	$('main').css('height', 'auto');
-	}
+$(window).resize(function(){ // adjust Main height when window is resized
+	heightResize();
+});
+$(document).load(function(){ // Run funtions after document is loaded (including images)
+	heightResize();
 });

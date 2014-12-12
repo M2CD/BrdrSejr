@@ -26,17 +26,17 @@
 		<article class="brands">
 			<h2>Vi forhandler</h2>
 			<nav class="menu-brands">
-				<a href="#"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
-				<a href="#"><img src="img/brands/honda.png" alt="Honda"></a>
-				<a href="#"><img src="img/brands/pgo.png" alt="PGO"></a>
-				<a href="#"><img src="img/brands/kymco.png" alt="Kymco"></a>
+				<a href="nyemotorcykler.php"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
+				<a href="nyemotorcykler.php"><img src="img/brands/honda.png" alt="Honda"></a>
+				<a href="nyemotorcykler.php"><img src="img/brands/pgo.png" alt="PGO"></a>
+				<a href="nyemotorcykler.php"><img src="img/brands/kymco.png" alt="Kymco"></a>
 			</nav>
 		</article>
 		<blockquote class="reviews">
 			<h2>Hvad siger kunderne?</h2>
 			<ul class="bxslider">
-				<li><p><cite>Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</cite><br><strong>- Marius Jensen Lyseggen</strong></p></li>
-				<li><p><cite>FOR SATAN DA BOBBY!! der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</cite><br><strong>- Marius Jensen Lyseggen</strong></p></li>      
+				<li><p><q>Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</q><br><strong>- Marius Jensen Lyseggen</strong></p></li>
+				<li><p><q>FOR SATAN DA BOBBY!! der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</q><br><strong>- Marius Jensen Lyseggen</strong></p></li>      
 			</ul>
 			
 		</blockquote>

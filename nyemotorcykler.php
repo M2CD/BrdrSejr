@@ -3,10 +3,6 @@
 	<?php include 'includes/css_inc.php'; ?>
 	<link href="plugins/bxslider/css/jquery.bxslider.css" rel="stylesheet">
 
-<!--Her er linket til custom css fil - mikkel-->
-    <link href="css/underside.css" rel="stylesheet">
-
-
 <?php include 'includes/header_inc.php'; ?>
 
     <main>
