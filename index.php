@@ -11,8 +11,8 @@
 	</section>
 	<main>
 		<nav class="circles">
-			<a href="#" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
-			<a href="#" title="Se info omkring vores værksted" class="rep">Værksted</a>
+			<a href="nyemotorcykler.php" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
+			<a href="repairshop.php" title="Se info omkring vores værksted" class="rep">Værksted</a>
 			<a href="#" title="Køb dit udstyr her" class="acc">Udstyr-shop</a>
 		</nav>
 		<article class="welcome">
