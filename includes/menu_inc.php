@@ -10,7 +10,7 @@
 				</li>
 				<li><a>Motorcykler</a>
 					<ul class="submenu">
-						<li><a href="#">Nye Motorcykler</a></li>
+						<li><a href="nyemotorcykler.php">Nye Motorcykler</a></li>
 						<li><a href="#" class="inactive">Brugte Motorcykler</a></li>
 					</ul>
 				</li>
