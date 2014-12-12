@@ -4,12 +4,12 @@ http://stackoverflow.com/questions/18379238/send-email-with-php-from-html-form-o
 class CI_Email {
 	//These settings need to be changed to the needs of your SMTP server:
 	
-	var $smtp_default_from = 'yourusername@your_from_email_address.com';
-	var $smtp_default_name = 'Your Name';
+	var $smtp_default_from = 'gunnyarts@gmail.com';
+	var $smtp_default_name = 'Dennis Jensen';
 	var $useragent		= "CodeIgniter";
 	var $mailpath		= "/usr/sbin/sendmail";
 	var $protocol		= "smtp";	// mail/sendmail/smtp
-	var $smtp_host		= "smtp.your_smtp_server.net";		// SMTP Server.  Example: mail.earthlink.net
+	var $smtp_host		= "stmp.gmail.com";		// SMTP Server.  Example: mail.earthlink.net
 	var $smtp_user		= "your_smtp_server_username@your_smtp_server_name.com";		// SMTP Username
 	var $smtp_pass		= "your_smtp_server_password";		// SMTP Password
 	var $smtp_port		= "587";	// SMTP Port, default: 25

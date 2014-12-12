@@ -545,12 +545,21 @@ section.personale .rolle {
 	}
 }
 /*****  contact.php *****/
+form {
+	width:350px;
+	float:right;
+}
 form label {
 	display:inline-block;
 	font-size:1em;
 	line-height:20px;
 	width:110px;
+	text-align:left;
 }
+	form label.msg-label {
+		width:100%;
+		text-indent:5px
+	}
 form input {
 	height:20px;
 	width:225px;
@@ -565,7 +574,7 @@ form textarea {
 form .form-submit {
 	width:140px;
 	height:30px;
-	background-color:#111;
+	background-color:#d20117;
 	color:#fff;
 	border:none;
 	border-radius:5px;
@@ -574,6 +583,43 @@ form .form-submit {
 	form .form-submit:hover {
 		font-weight:bold;
 	}
+@media screen and (min-width:700px) {
+.contact {
+	float:left;
+	width:40%;
+	border-bottom:none;
+}
+.contact-form {
+	width:50%;
+	float:right;
+	text-align:right;
+}
+.contact-form h3 {
+	font-size:1.5em;
+}
+}
+.contact h3 {
+	font-size {
+		1.5em;
+	}
+}
+.contact h3 {
+	font-size:1.5em;
+	}
+.contact-message {
+	background-color:#fafafa;
+	padding:40px;
+	box-shadow:inset 1px 1px 2px #aaa;
+	border-bottom:none;
+	margin-right:0;
+	text-align:left;
+}
+.contact ol {
+	font-weight:500;
+}
+.contact li {
+	font-weight:300;
+}
 /************************/
 /******** FOOTER ********/
 /************************/
