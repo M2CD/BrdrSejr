@@ -9,27 +9,29 @@ $(document).ready(function(){
 	});
 	
 	// Make main full height of window
-	var docHeight = $(window).height();
-	var mainHeight = $('main').height();
-	var footerHeight = $('footer').height();
-	var footerTop = $('footer').position().top + footerHeight;
+	var docHeight = $(window).height(); // height of window
+	var mainHeight = $('main').height(); // height of <main> element
+	var footerHeight = $('footer').height(); // height of <footer> element
+	var footerTop = $('footer').position().top + footerHeight; // height of all content on page
 
-	if (footerTop < docHeight) {
+	if (footerTop < docHeight) { // make main fill extra space
 	$('main').css('height', (docHeight - footerTop) + mainHeight + 'px');
+	}
+	if (footerTop > docHeight) { // reset <main> height if content fills window height
+	$('main').css('height', 'auto');
 	}
 	
 });
-// adjust Main height when window is resized
-$(window).resize(function(){
-	var docHeight = $(window).height();
-	var mainHeight = $('main').height();
-	var footerHeight = $('footer').height();
-	var footerTop = $('footer').position().top + footerHeight;
+$(window).resize(function(){ // adjust Main height when window is resized
+	var docHeight = $(window).height(); // height of window
+	var mainHeight = $('main').height(); // height of <main> element
+	var footerHeight = $('footer').height(); // height of <footer> element
+	var footerTop = $('footer').position().top + footerHeight; // height of all content on page
 
-	if (footerTop < docHeight) {
+	if (footerTop < docHeight) { // make main fill extra space
 	$('main').css('height', (docHeight - footerTop) + mainHeight + 'px');
 	}
-	if (footerTop > docHeight) {
+	if (footerTop > docHeight) { // reset <main> height if content fills window height
 	$('main').css('height', 'auto');
 	}
 });
