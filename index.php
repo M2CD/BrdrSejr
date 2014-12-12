@@ -5,7 +5,7 @@
 <?php include 'includes/header_inc.php'; ?>
 	<section class="slider theater">
 		<ul class="bxslider">
-			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/3B_tk5cmvEE?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
+			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/ZO8PvISNUbA?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
 			<li><img src="img/index/slider01.jpg"></li>
 		</ul>
 	</section>

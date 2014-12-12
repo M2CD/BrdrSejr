@@ -10,7 +10,7 @@
           <h2>Personale</h2>
                 <p>Vi vil gerne præsentere jer for teamet bag Brdr. Sejr</p>
         <article>
-            <img src="img/personale/bennyhaslev.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/eriksejr.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
 				<li class="rolle">Direktør / Medejer</li>
                 <li>Niels Sejr</li>
@@ -28,7 +28,7 @@
         </article>
           
         <article>
-            <img src="img/personale/bennyhaslev.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/tinasejr.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
                 <li class="rolle">Medarbejder</li>
                 <li>Tina Sejr</li>
@@ -37,7 +37,7 @@
         </article>
           
         <article>
-            <img src="img/personale/bennyhaslev.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/anonym.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
                 <li class="rolle">Medarbejder</li>
                 <li>Jan Jonsen</li>
@@ -46,7 +46,7 @@
         </article>
           
         <article>
-            <img src="img/personale/bennyhaslev.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/anonym.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
                 <li class="rolle">Medarbejder</li>
                 <li>Kristian Hansen</li>
@@ -55,7 +55,7 @@
         </article>
           
         <article>
-            <img src="img/personale/bennyhaslev.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/anonym.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
                 <li class="rolle">Medarbejder</li>
                 <li>Lupus</li>
