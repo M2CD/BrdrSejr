@@ -7,7 +7,7 @@
 
 <?php include 'includes/header_inc.php'; ?>
 
-    <main>
+    <section class="main">
     
             <section class="mc_img">
 
@@ -42,7 +42,7 @@
 
 Vi tilbyder i samarbejde med Honda på en attraktiv finansiering samt forsikringsordning med ekstra fordele for dig. Ring og hør nærmere.</p>
         </section>
-	</main>
+	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
 
@@ -60,7 +60,7 @@ Vi tilbyder i samarbejde med Honda på en attraktiv finansiering samt forsikring
 	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){

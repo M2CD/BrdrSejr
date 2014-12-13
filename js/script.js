@@ -1,11 +1,11 @@
 function heightResize(){
 		var docHeight = $(window).height(); // height of window
-	var mainHeight = $('main').height(); // height of <main> element
+	var mainHeight = $('.main').height(); // height of <section class="main"> element
 	var footerHeight = $('footer').height(); // height of <footer> element
 	var footerTop = $('footer').position().top + footerHeight; // height of all content on page
 
-	if (footerTop < docHeight) { // make <main>'s min-height fill extra space
-	$('main').css('min-height', (docHeight - footerTop) + mainHeight + 'px');
+	if (footerTop < docHeight) { // make <section class="main">'s min-height fill extra space
+	$('.main').css('min-height', (docHeight - footerTop) + mainHeight + 'px');
 	}
 }
 

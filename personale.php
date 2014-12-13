@@ -5,7 +5,7 @@
 
 <?php include 'includes/header_inc.php'; ?>
 
-    <main>
+    <section class="main">
       <section class="personale">
           <h2>Personale</h2>
                 <p>Vi vil gerne præsentere jer for teamet bag Brdr. Sejr</p>
@@ -65,7 +65,7 @@
           
       </section>
 		<?php include 'includes/social_inc.php'; ?>
-	</main>
+	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
 

@@ -257,7 +257,7 @@ a.phone {
 /************************/
 /***** MAIN CONTENT *****/
 /************************/
-main {
+.main {
 	overflow:auto;
 	width:100%;
 	margin:0 auto;
@@ -267,7 +267,7 @@ main {
 	
 }
 @media screen and (min-width:1000px) { /* Desktop view */
-	main {
+	.main {
 		width:70%;
 		min-width:1000px;
 	}

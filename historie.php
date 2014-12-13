@@ -6,7 +6,7 @@
 
 <?php include 'includes/header_inc.php'; ?>
 
-    <main>
+    <section class="main">
         <article class="content">
             <h2>Historie</h2>
                 <p>
@@ -37,7 +37,7 @@ I 2011 går Erik Sejr og hans kone Linda Sejr på pension: Linda Sejr som gennem
         
         </article>
 		<?php include 'includes/social_inc.php'; ?>
-	</main>
+	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
 

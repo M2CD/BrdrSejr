@@ -6,10 +6,10 @@
 	<section class="slider theater">
 		<ul class="bxslider">
 			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/3B_tk5cmvEE?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
-			<li><img src="img/index/slider01.jpg"></li>
+			<li><img src="img/index/slider01.jpg" alt="tmeporary slider image 1"></li>
 		</ul>
 	</section>
-	<main>
+	<section class="main">
 		<nav class="circles">
 			<a href="nyemotorcykler.php" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
 			<a href="repairshop.php" title="Se info omkring vores værksted" class="rep">Værksted</a>
@@ -40,12 +40,12 @@
 			</ul>
 			
 		</blockquote>
-	</main>
+	</section><!-- close main -->
 <?php include 'includes/footer_inc.php'; ?>
 	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){

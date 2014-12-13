@@ -5,7 +5,7 @@
 
 <?php include 'includes/header_inc.php'; ?>
 
-    <main>
+    <section class="main">
 	<section class="slider showroom">
 		<ul class="bxslider">
             <li><img src="img/nyemotorcykler/DSC_4073.JPG"></li>
@@ -63,7 +63,7 @@
             <p>500-749 ccm</p>
         </a>
     </section>
-	</main>
+	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
 
@@ -81,7 +81,7 @@
 	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){
