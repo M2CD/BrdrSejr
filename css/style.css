@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) { /* Desktop view */
+@media screen and (min-width: 1200px) { /* Desktop view */
 	body {
 		background-image:url(../img/bg.jpg);
 		background-attachment: fixed;

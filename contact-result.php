@@ -23,18 +23,17 @@
 			<article class="contact-message">
 				<?php 
 				if(isset($_POST['submit'])){
-					$to = "gunnyarts@gmail.com"; // this is your Email address
+					$to = "brdrsejr@brdrsejr.dk"; // this is your Email address
 					$from = $_POST['email']; // this is the sender's Email address
 					$name = $_POST['name'];
 					$subject = $_POST['subject'];
 					$message = $_POST['message'];
 
-					$headers = "From:" . $from;
-					//mail($to,$subject,$message,$headers);
-	
-					// You can also use header('Location: thank_you.php'); to redirect to another page.
+					$headers = "Fra: " . $name . " (" . $from . ")";
+					//mail($to,$subject,$message,$headers); // email message to $to
 					}
-				echo "<h3>" . $subject . "</h3>";
+				// Showing message so user can read what they have sent
+				echo "<h4>" . $subject . "</h4>";
 				echo "<p>" . $message . "</p>";
 				?>
 			</article>
