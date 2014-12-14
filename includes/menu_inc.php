@@ -3,14 +3,14 @@
 				<li><a href="index.php">Forside</a></li>
 				<li><a>Brdr. Sejr</a>
 					<ul class="submenu">
-						<li><a href="historie.php">Historie</a></li>
-						<li><a href="personale.php">Personale</a></li>
+						<li><a href="history.php">Historie</a></li>
+						<li><a href="staff.php">Personale</a></li>
 						<li><a href="#">Nyheder</a></li>
 					</ul>
 				</li>
 				<li><a>Motorcykler</a>
 					<ul class="submenu">
-						<li><a href="nyemotorcykler.php">Nye Motorcykler</a></li>
+						<li><a href="motorcycles.php">Nye Motorcykler</a></li>
 						<li><a href="#" class="inactive">Brugte Motorcykler</a></li>
 					</ul>
 				</li>

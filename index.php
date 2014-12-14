@@ -16,13 +16,18 @@
 <?php include 'includes/header_inc.php'; ?>
 	<section class="slider theater">
 		<ul class="bxslider">
+<<<<<<< HEAD
 			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/3B_tk5cmvEE?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
 			<li><img src="img/index/slider01.jpg" alt="tmeporary slider image 1"></li>
+=======
+			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/ZO8PvISNUbA?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
+			<li><img src="img/index/slider01.jpg"></li>
+>>>>>>> 4d5e9ac0add289afc2f040faef0b1e07e918aa7b
 		</ul>
 	</section>
 	<section class="main">
 		<nav class="circles">
-			<a href="nyemotorcykler.php" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
+			<a href="motorcycles.php" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
 			<a href="repairshop.php" title="Se info omkring vores værksted" class="rep">Værksted</a>
 			<a href="#" title="Køb dit udstyr her" class="acc">Udstyr-shop</a>
 		</nav>
@@ -37,10 +42,10 @@
 		<article class="brands">
 			<h2>Vi forhandler</h2>
 			<nav class="menu-brands">
-				<a href="nyemotorcykler.php"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
-				<a href="nyemotorcykler.php"><img src="img/brands/honda.png" alt="Honda"></a>
-				<a href="nyemotorcykler.php"><img src="img/brands/pgo.png" alt="PGO"></a>
-				<a href="nyemotorcykler.php"><img src="img/brands/kymco.png" alt="Kymco"></a>
+				<a href="motorcycles.php"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
+				<a href="motorcycles.php"><img src="img/brands/honda.png" alt="Honda"></a>
+				<a href="motorcycles.php"><img src="img/brands/pgo.png" alt="PGO"></a>
+				<a href="motorcycles.php"><img src="img/brands/kymco.png" alt="Kymco"></a>
 			</nav>
 		</article>
 		<blockquote class="reviews">

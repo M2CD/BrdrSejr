@@ -50,6 +50,7 @@ section.personale article {
     float: left;
 }
 section.personale img {
+
     width: 40%;
     float: left;
 }
@@ -152,3 +153,17 @@ section.mcInfo {
     margin-top: 25px;
     font-size: 12px;
 }
+
+a.contact {
+    display: block;
+	width:140px;
+	height:30px;
+	background-color:#d20117;
+	color:#fff;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+}
+	a.contact:hover {
+		font-weight:bold;
+	}
