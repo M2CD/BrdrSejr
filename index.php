@@ -11,7 +11,7 @@
 	</section>
 	<main>
 		<nav class="circles">
-			<a href="nyemotorcykler.php" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
+			<a href="motorcycles.php" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
 			<a href="repairshop.php" title="Se info omkring vores værksted" class="rep">Værksted</a>
 			<a href="#" title="Køb dit udstyr her" class="acc">Udstyr-shop</a>
 		</nav>
@@ -26,10 +26,10 @@
 		<article class="brands">
 			<h2>Vi forhandler</h2>
 			<nav class="menu-brands">
-				<a href="nyemotorcykler.php"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
-				<a href="nyemotorcykler.php"><img src="img/brands/honda.png" alt="Honda"></a>
-				<a href="nyemotorcykler.php"><img src="img/brands/pgo.png" alt="PGO"></a>
-				<a href="nyemotorcykler.php"><img src="img/brands/kymco.png" alt="Kymco"></a>
+				<a href="motorcycles.php"><img src="img/brands/suzuki.png" alt="Suzuki"></a>
+				<a href="motorcycles.php"><img src="img/brands/honda.png" alt="Honda"></a>
+				<a href="motorcycles.php"><img src="img/brands/pgo.png" alt="PGO"></a>
+				<a href="motorcycles.php"><img src="img/brands/kymco.png" alt="Kymco"></a>
 			</nav>
 		</article>
 		<blockquote class="reviews">

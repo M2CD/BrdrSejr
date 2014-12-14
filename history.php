@@ -7,21 +7,21 @@
 <?php include 'includes/header_inc.php'; ?>
 
     <main>
-        <article class="content">
+        <article class="history">
             <h2>Historie</h2>
                 <p>
         Brdr. Sejr Motorcyklers historie rækker langt tilbage i tid, men er stadig en af de førende motorcykelforhandlere i Aarhus.</p>
-           <a href="img/historie/gammelbutik.jpg" data-lightbox="personale" data-title="Stiften.dk 06-01-09"><img src="img/historie/gammelbutik.jpg" class="historie_butik" alt="Brdr. Sejr gammel butik"></a> 
+           <a href="img/historie/gammelbutik.jpg" data-lightbox="personale" data-title="Stiften.dk 06-01-09"><img src="img/historie/gammelbutik.jpg" class="old_store" alt="Brdr. Sejr gammel butik"></a> 
   
             <h2>Åbo Motor</h2>
                 <p>
             Faktisk starter historien om firmaet der blev etableret som Åbo Motor, i Gl. Munkegade nr. 4 først i trediverne - og blev i løbet af fyrrene, halvtredserne og tresserne en af de største MC forretninger i Aarhus. Grundlæggerne af Åbo var brødrerene Harry og Jørgen Vincent Madsen. På daværende tidspunkt var man forhandler af mange mærker bla. Triumph - BSA -Harley Davidson - Indian, samt af tyske mærker, så som DKW - Jawa - TWN - Victoria - Durkopp - Adler mm.</p>
                 <p>
-            Værkstedet havde på et tidspunkt ansat 6 mekanikkere - tre lærlinge - arbejdsdrenge og selvfølgelig en værkfører. Værkstedet reparerede alting og fremstillede værktøj og reservedele samt tilbehør. Magneter - Dynamoer - relæer kunne man den gang få reservedele til, og det var en stor tilfredsstillelse at have repareret motorcyklens el. anlæg. Krumtappe - topstykker - ventiler, alt blev omhyggeligt istandsat. Arbejdslønnen dengeng var jo ikke så høj, så man kunne bruge uger på at istandsætte en MC.</p>
+            Værkstedet havde på et tidspunkt ansat 6 mekanikkere - tre lærlinge - arbejdsdrenge og selvfølgelig en værkfører. Værkstedet reparerede alting og fremstillede værktøj og reservedele samt tilbehør. Magneter - Dynamoer - relæer kunne man den gang få reservedele til, og det var en stor tilfredsstillelse at have repareret motorcyklens el. anlæg. Krumtappe - topstykker - ventiler, alt blev omhyggeligt istandsat. Arbejdslønnen dengang var jo ikke så høj, så man kunne bruge uger på at istandsætte en MC.</p>
                 <p>
             På lageret var der ansat fire medarbejdere + en lagerchef. Forretningen havde tre sælgere og på kontoret var der fire ansatte. Den store boss var der selvfølgelig også. Harry kontrollerede hver morgen, at alle mødte til tiden, og at alt var som det skulle være. Der var ingen slinger i valsen dengang, og ikke mange lange samtaler og evalueringer om tingene - det var kæft, trit og retning.</p>
             
-            <a href="img/historie/nybutik.jpg" data-lightbox="personale" data-title="Motorradonline.dk 29-11-13"><img src="img/historie/nybutik.jpg" class="historie_nybutik" alt="Brdr. Sejr ny butik"></a> 
+            <a href="img/historie/nybutik.jpg" data-lightbox="personale" data-title="Motorradonline.dk 29-11-13"><img src="img/historie/nybutik.jpg" class="new_store" alt="Brdr. Sejr ny butik"></a> 
           
             <h2>Brdr. Sejr</h2> 
                 <p>

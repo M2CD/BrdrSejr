@@ -6,58 +6,58 @@
 <?php include 'includes/header_inc.php'; ?>
 
     <main>
-      <section class="personale">
+      <section class="staff">
           <h2>Personale</h2>
                 <p>Vi vil gerne præsentere jer for teamet bag Brdr. Sejr</p>
         <article>
-            <img src="img/personale/eriksejr.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/eriksejr.jpg" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
-				<li class="rolle">Direktør / Medejer</li>
+				<li class="role">Direktør / Medejer</li>
                 <li>Niels Sejr</li>
                 <li>Værksted / Lager / Sælger</li>
             </ol>
         </article>
           
         <article>
-            <img src="img/personale/bennyhaslev.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/bennyhaslev.jpg" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
-                <li class="rolle">Medejer</li>
+                <li class="role">Medejer</li>
                 <li>Benny Haslev</li>
                 <li>Værksted / Lager / Sælger</li>
             </ol>
         </article>
           
         <article>
-            <img src="img/personale/tinasejr.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/tinasejr.jpg" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
-                <li class="rolle">Medarbejder</li>
+                <li class="role">Medarbejder</li>
                 <li>Tina Sejr</li>
                 <li>Butik / Udstyr / Administration</li>
             </ol>
         </article>
           
         <article>
-            <img src="img/personale/anonym.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/anonym.jpg" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
-                <li class="rolle">Medarbejder</li>
+                <li class="role">Medarbejder</li>
                 <li>Jan Jonsen</li>
                 <li>Allround medarbejder / Chauffør</li>
             </ol>
         </article>
           
         <article>
-            <img src="img/personale/anonym.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/anonym.jpg" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
-                <li class="rolle">Medarbejder</li>
+                <li class="role">Medarbejder</li>
                 <li>Kristian Hansen</li>
                 <li>Mekaniker Lærling</li>
             </ol>
         </article>
           
         <article>
-            <img src="img/personale/anonym.jpg" class="personale" alt="Brdr. Sejr direktør Benny Haslev">
+            <img src="img/personale/anonym.jpg" alt="Brdr. Sejr direktør Benny Haslev">
             <ol>
-                <li class="rolle">Medarbejder</li>
+                <li class="role">Medarbejder</li>
                 <li>Lupus</li>
                 <li>Chef for nattevagten</li>
             </ol>
