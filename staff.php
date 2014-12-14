@@ -5,13 +5,8 @@
 
 <?php include 'includes/header_inc.php'; ?>
 
-<<<<<<< HEAD:personale.php
     <section class="main">
-      <section class="personale">
-=======
-    <main>
       <section class="staff">
->>>>>>> 4d5e9ac0add289afc2f040faef0b1e07e918aa7b:staff.php
           <h2>Personale</h2>
                 <p>Vi vil gerne præsentere jer for teamet bag Brdr. Sejr</p>
         <article>

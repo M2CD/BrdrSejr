@@ -5,14 +5,8 @@
     <link href="plugins/lightbox/css/lightbox.css" rel="stylesheet">
 
 <?php include 'includes/header_inc.php'; ?>
-
-<<<<<<< HEAD:historie.php
     <section class="main">
-        <article class="content">
-=======
-    <main>
         <article class="history">
->>>>>>> 4d5e9ac0add289afc2f040faef0b1e07e918aa7b:history.php
             <h2>Historie</h2>
                 <p>
         Brdr. Sejr Motorcyklers historie rækker langt tilbage i tid, men er stadig en af de førende motorcykelforhandlere i Aarhus.</p>
