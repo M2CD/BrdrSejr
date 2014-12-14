@@ -39,8 +39,6 @@
 			  controls:false,
 			  pause:10000,
 			  speed:1000
-			  
-			  
 		  });
 		});
 	</script>
