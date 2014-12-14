@@ -5,7 +5,7 @@
 
 <?php include 'includes/header_inc.php'; ?>
 
-    <main>
+    <section class="main">
 	<section class="slider showroom">
 		<ul class="bxslider">
             <li><img src="img/nyemotorcykler/DSC_4073.JPG"></li>
@@ -61,7 +61,7 @@
         <br>
         <input type="checkbox" name="Brand" value="Suzuki">200.000-400.000 kr.
     </form>   
-    </section>
+    </section><!-- close checkbox -->
         
     <section class="mc_products">
         <a href="Suzuki-SFV650AL.php">
@@ -208,8 +208,8 @@
             <p class="price">97.000 kr.</p>
             <p>500-749 ccm</p>
         </a>
-    </section>
-	</main>
+    </section><!-- close mcProducts -->
+	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
 

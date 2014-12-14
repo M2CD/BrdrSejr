@@ -16,13 +16,8 @@
 <?php include 'includes/header_inc.php'; ?>
 	<section class="slider theater">
 		<ul class="bxslider">
-<<<<<<< HEAD
-			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/3B_tk5cmvEE?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
-			<li><img src="img/index/slider01.jpg" alt="tmeporary slider image 1"></li>
-=======
 			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/ZO8PvISNUbA?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
-			<li><img src="img/index/slider01.jpg"></li>
->>>>>>> 4d5e9ac0add289afc2f040faef0b1e07e918aa7b
+			<li><img src="img/index/slider01.jpg" alt="temporary slider image"></li>
 		</ul>
 	</section>
 	<section class="main">
