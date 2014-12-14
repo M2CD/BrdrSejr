@@ -942,12 +942,12 @@ article.productimg {
     border-bottom: 5px #FFF solid;
 }
 
-article.productimg img.main {
+article.productimg img.main-image {
     width: 70%;
     border-right: 2px #FFF solid;
 }
 
-article.productimg img.sub {
+article.productimg img.sub-image {
     width: 20%;
     float: right;
     border-bottom: 2px #FFF solid;
