@@ -1,4 +1,15 @@
 <?php include 'includes/top_inc.php'; ?>
+	<!-- Facebook sharing optimization -->
+	<!-- for Google -->
+	<meta name="description" content="Køb din nye motorcykel hos Brdr. Sejr! Vi står klar med det største udvalg til de bedste priser." />
+	<meta name="keywords" content="motorcykler, bikes, motorcycles, cykler, aarhus, århus, danmark, denmark, brdr, sejr, brødrene, bror, sejer scooter, moped, knallert, pgo, honda, suzuki, kymco, værksted, butik" />
+
+	<meta property="og:title" content="Brdr. Sejr Motorcykler ApS" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://gunnyarts.com/brdrsejr/img/image-fb.png" />
+	<meta property="og:url" content="http://gunnyarts.com/brdrsejr" />
+	<meta property="og:description" content="Køb din nye motorcykel hos Brdr. Sejr! Vi står klar med det største udvalg til de bedste priser." />
+
 	<title>Brdr. Sejr Motorcykler ApS</title>
 	<?php include 'includes/css_inc.php'; ?>
 	<link href="plugins/bxslider/css/jquery.bxslider.css" rel="stylesheet">
@@ -45,7 +56,6 @@
 	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript"></script>
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){
@@ -59,10 +69,9 @@
 			  controls:false,
 			  pause:10000,
 			  speed:1000
-			  
-			  
 		  });
 		});
 	</script>
+	<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>

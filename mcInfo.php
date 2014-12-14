@@ -45,29 +45,7 @@ Vi tilbyder i samarbejde med Honda på en attraktiv finansiering samt forsikring
 	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
-
-	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
-	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
-	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
 	<script src="plugins/lightbox/js/lightbox.min.js"></script>
 	<script src="js/script.js" type="text/javascript"></script>
-	<script>
-		//Run slider plugin
-		$(document).ready(function(){
-		  $('.slider .bxslider').bxSlider({
-			  video: true,
-			  auto: true
-		  });
-		  $('.reviews .bxslider').bxSlider({
-			  auto: true,
-			  randomStart: true,
-			  controls:false,
-			  pause:10000,
-			  speed:1000
-			  
-			  
-		  });
-		});
-	</script>
 </body>
 </html>
