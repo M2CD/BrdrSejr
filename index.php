@@ -36,7 +36,7 @@
 			<h2>Hvad siger kunderne?</h2>
 			<ul class="bxslider">
 				<li><p><q>Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</q><br><strong>- Marius Jensen Lyseggen</strong></p></li>
-				<li><p><q>FOR SATAN DA BOBBY!! der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</q><br><strong>- Marius Jensen Lyseggen</strong></p></li>      
+				<li><p><q>Har handlet hos Brdr Sejr i omkring 35 år og har alle år købt reservedele og beklædning hos dem, Jeg har for det meste selv stået for reparationer og vedligeholdelse. De har altid været meget hjælpsomme med gode råd og vejledning, når jeg har været kørt i stykker. Med den behandling jeg har modtaget, får man en følelse af at være en del af "familien". Jeg kan kun anbefale dem på det varmeste.</q><br><strong>- Poul Grønhøj Andersen</strong></p></li>      
 			</ul>
 			
 		</blockquote>

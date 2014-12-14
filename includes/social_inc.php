@@ -1,6 +1,6 @@
 <section class="social">
 			<aside class="trustpilot">
-				<a href="#">Anmeld os på TrustPilot</a>
+				<a href="https://ro.trustpilot.com/review/www.brdrsejr.dk" target="_blank">Anmeld os på TrustPilot</a>
 			</aside>
 			<aside class="facebook">
 				<div
