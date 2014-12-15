@@ -3,7 +3,7 @@
 	<?php include 'includes/css_inc.php'; ?>
 	<link href="plugins/bxslider/css/jquery.bxslider.css" rel="stylesheet">
 <?php include 'includes/header_inc.php'; ?>
-	<main>
+	<section class="main">
 		<article class="contact">
 			<h2>Kontakt os</h2>
 			<p>Drejer det sig om en hastesag bedes du kontakte os pr. telefon på <a href="tel:86163766" class="phone">8616 3766</a> eller <a href="tel:86163396" class="phone">8616 3396</a> eller komme ned i butikken på: <address>Randersvej 36, 8200 Aarhus N</address></p>
@@ -23,24 +23,23 @@
 			<article class="contact-message">
 				<?php 
 				if(isset($_POST['submit'])){
-					$to = "gunnyarts@gmail.com"; // this is your Email address
+					$to = "brdrsejr@brdrsejr.dk"; // this is your Email address
 					$from = $_POST['email']; // this is the sender's Email address
 					$name = $_POST['name'];
 					$subject = $_POST['subject'];
 					$message = $_POST['message'];
 
-					$headers = "From:" . $from;
-					//mail($to,$subject,$message,$headers);
-	
-					// You can also use header('Location: thank_you.php'); to redirect to another page.
+					$headers = "Fra: " . $name . " (" . $from . ")";
+					//mail($to,$subject,$message,$headers); // email message to $to
 					}
-				echo "<h3>" . $subject . "</h3>";
+				// Showing message so user can read what they have sent
+				echo "<h4>" . $subject . "</h4>";
 				echo "<p>" . $message . "</p>";
 				?>
 			</article>
-		</section>
-	</main>
+		</section><!-- close contactform results -->
+	</section><!-- close main -->
 <?php include 'includes/footer_inc.php'; ?>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>

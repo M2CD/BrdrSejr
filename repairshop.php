@@ -3,7 +3,7 @@
 	<?php include 'includes/css_inc.php'; ?>
 	<link href="plugins/bxslider/css/jquery.bxslider.css" rel="stylesheet">
 <?php include 'includes/header_inc.php'; ?>
-	<main>
+	<section class="main">
 		<section class="slider showroom">
 			<ul class="bxslider">
 				<li><img src="http://coolwallpaperz.info/user-content/uploads/wall/o/27/honda-motorcycle-273535.jpg"</li>
@@ -20,27 +20,18 @@
 			<p>Du kan kontakte værkstedet på <a href="tel:86163766" class="phone">8616 3766</a> eller <a href="tel:86163396" class="phone">8616 3396</a></p>
 		</article>
 		<?php include 'includes/social_inc.php'; ?>
-	</main>
+	</section><!-- close main -->
 <?php include 'includes/footer_inc.php'; ?>
 	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){
 		  $('.slider .bxslider').bxSlider({
 			  video: true,
 			  auto: true
-		  });
-		  $('.reviews .bxslider').bxSlider({
-			  auto: true,
-			  randomStart: true,
-			  controls:false,
-			  pause:10000,
-			  speed:1000
-			  
-			  
 		  });
 		});
 	</script>

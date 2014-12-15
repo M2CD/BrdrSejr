@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) { /* Desktop view */
+@media screen and (min-width: 1200px) { /* Desktop view */
 	body {
 		background-image:url(../img/bg.jpg);
 		background-attachment: fixed;
@@ -257,7 +257,7 @@ a.phone {
 /************************/
 /***** MAIN CONTENT *****/
 /************************/
-main {
+.main {
 	overflow:auto;
 	width:100%;
 	margin:0 auto;
@@ -267,7 +267,7 @@ main {
 	
 }
 @media screen and (min-width:1000px) { /* Desktop view */
-	main {
+	.main {
 		width:70%;
 		min-width:1000px;
 	}
@@ -400,10 +400,33 @@ nav.circles a {
 		background-repeat:no-repeat;
 	}
 /* Social */
-	.welcome {
-		overflow:auto;
-	}
+.welcome {
+	overflow:auto;
+}
 
+.welcome h2, .welcome p {
+	width:57%;
+	float:left;
+}
+.welcome .social {
+	position:relative;
+	overflow:auto;
+}
+.welcome .social aside {
+	float:none;
+	margin:auto;
+	width:100%;
+	text-align:center;
+}
+ .welcome .social aside.trustpilot a {
+	 background-position:center bottom;
+ }
+@media screen and (max-width:800px) {
+	.welcome h2, .welcome p {
+		width:100%;
+		float:none;
+	}
+}
 /* brands navigation */
 article.brands h2 {
 	text-align:center;
@@ -414,6 +437,7 @@ nav.menu-brands {
 }
 nav.menu-brands a {
 	margin:10px;
+	display:inline-block;
 }
 @media screen and (min-width:700px) {	/* Only grayscale on desktop */
 	nav.menu-brands a {					/* Mobile doesn't have hover */
@@ -922,12 +946,12 @@ article.productimg {
     border-bottom: 5px #FFF solid;
 }
 
-article.productimg img.main {
+article.productimg img.main-image {
     width: 70%;
     border-right: 2px #FFF solid;
 }
 
-article.productimg img.sub {
+article.productimg img.sub-image {
     width: 20%;
     float: right;
     border-bottom: 2px #FFF solid;

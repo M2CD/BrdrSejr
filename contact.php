@@ -3,7 +3,7 @@
 	<?php include 'includes/css_inc.php'; ?>
 	<link href="plugins/bxslider/css/jquery.bxslider.css" rel="stylesheet">
 <?php include 'includes/header_inc.php'; ?>
-	<main>
+	<section class="main">
 		<article class="contact">
 			<h2>Kontakt os</h2>
 			<p>Drejer det sig om en hastesag bedes du kontakte os pr. telefon på <a href="tel:86163766" class="phone">8616 3766</a> eller <a href="tel:86163396" class="phone">8616 3396</a> eller komme ned i butikken på: <address>Randersvej 36, 8200 Aarhus N</address></p>
@@ -27,12 +27,12 @@
 					<label for="subject">Emne:</label>
 					<input name="subject" type="text"><br>
 					<label for="message" class="msg-label">Din besked:</label><br>
-					<textarea name="message" type="text"></textarea><br>
+					<textarea name="message"></textarea><br>
 					<input type="submit" name="submit" value="Send besked" class="form-submit">
 				</form>
-			</section>
-	</main>
+			</section><!-- close contactform -->
+	</section><!-- close main -->
 <?php include 'includes/footer_inc.php'; ?>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>

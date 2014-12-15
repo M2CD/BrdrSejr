@@ -1,4 +1,15 @@
 <?php include 'includes/top_inc.php'; ?>
+	<!-- Facebook sharing optimization -->
+	<!-- for Google -->
+	<meta name="description" content="Køb din nye motorcykel hos Brdr. Sejr! Vi står klar med det største udvalg til de bedste priser." />
+	<meta name="keywords" content="motorcykler, bikes, motorcycles, cykler, aarhus, århus, danmark, denmark, brdr, sejr, brødrene, bror, sejer scooter, moped, knallert, pgo, honda, suzuki, kymco, værksted, butik" />
+
+	<meta property="og:title" content="Brdr. Sejr Motorcykler ApS" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://gunnyarts.com/brdrsejr/img/image-fb.png" />
+	<meta property="og:url" content="http://gunnyarts.com/brdrsejr" />
+	<meta property="og:description" content="Køb din nye motorcykel hos Brdr. Sejr! Vi står klar med det største udvalg til de bedste priser." />
+
 	<title>Brdr. Sejr Motorcykler ApS</title>
 	<?php include 'includes/css_inc.php'; ?>
 	<link href="plugins/bxslider/css/jquery.bxslider.css" rel="stylesheet">
@@ -6,10 +17,10 @@
 	<section class="slider theater">
 		<ul class="bxslider">
 			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/ZO8PvISNUbA?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
-			<li><img src="img/index/slider01.jpg"></li>
+			<li><img src="img/index/slider01.jpg" alt="temporary slider image"></li>
 		</ul>
 	</section>
-	<main>
+	<section class="main">
 		<nav class="circles">
 			<a href="motorcycles.php" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
 			<a href="repairshop.php" title="Se info omkring vores værksted" class="rep">Værksted</a>
@@ -36,16 +47,15 @@
 			<h2>Hvad siger kunderne?</h2>
 			<ul class="bxslider">
 				<li><p><q>Virkelig et sted jeg kan anbefale til andre, både køb af tøj og mc. De har også et kanon værksted der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</q><br><strong>- Marius Jensen Lyseggen</strong></p></li>
-				<li><p><q>FOR SATAN DA BOBBY!! der har meget at se til, men de holder deres aftaler! Og er gode til at rådgive og billige forhold til mange andre. Engang sejer, altid sejer:)</q><br><strong>- Marius Jensen Lyseggen</strong></p></li>      
+				<li><p><q>Har handlet hos Brdr Sejr i omkring 35 år og har alle år købt reservedele og beklædning hos dem, Jeg har for det meste selv stået for reparationer og vedligeholdelse. De har altid været meget hjælpsomme med gode råd og vejledning, når jeg har været kørt i stykker. Med den behandling jeg har modtaget, får man en følelse af at være en del af "familien". Jeg kan kun anbefale dem på det varmeste.</q><br><strong>- Poul Grønhøj Andersen</strong></p></li>      
 			</ul>
 			
 		</blockquote>
-	</main>
+	</section><!-- close main -->
 <?php include 'includes/footer_inc.php'; ?>
 	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){
@@ -59,10 +69,9 @@
 			  controls:false,
 			  pause:10000,
 			  speed:1000
-			  
-			  
 		  });
 		});
 	</script>
+	<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
