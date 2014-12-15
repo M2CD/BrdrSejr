@@ -24,7 +24,7 @@
 		<nav class="circles">
 			<a href="motorcycles.php" title="Se vores store udvalg af motorcykler" class="mc">Motorcykler</a>
 			<a href="repairshop.php" title="Se info omkring vores værksted" class="rep">Værksted</a>
-			<a href="#" title="Køb dit udstyr her" class="acc">Udstyr-shop</a>
+			<a href="mcwebshop.php" title="Køb dit udstyr her" class="acc">Udstyr-shop</a>
 		</nav>
 		<article class="welcome">
 			<h2>Velkommen til Brdr. Sejr</h2>

@@ -788,7 +788,7 @@ img.mcwebshop {
 }
 
 /*sidemenu*/
-section.webshopmenu {
+nav.webshopmenu {
     width: 18%;
     border: 1px #000 solid;
     display: inline-block;
@@ -797,7 +797,7 @@ section.webshopmenu {
     color: #bfbfbf; 
 }
 
-section.webshopmenu h2 { 
+nav.webshopmenu h2 { 
     font-size: 20px;
     width: 100%;
     border-bottom: 1px #bfbfbf solid;
@@ -838,6 +838,10 @@ ul.sidesubmenu li a {
 }
 
 ul.sidesubmenu li a:hover {
+    color: #FFF;
+}
+
+ul.sidesubmenu a.active {
     color: #FFF;
 }
 
