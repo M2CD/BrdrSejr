@@ -9,7 +9,7 @@
     <main>
 	<img src="img/mcwebshop/sale.jpg" class="mcwebshop" alt="Christmas sale">
     
-    <section class="webshopmenu">
+    <nav class="webshopmenu">
         <h2>Varesortiment</h2>
     <ul class="sidemenu">
         <li class="sidemenuheader head">Beklædning</li>
@@ -26,15 +26,14 @@
                 <li><a href="#">Lys</a></li>
                 <li><a href="#">Fælge</a></li>
             </ul>
-        <li class="sidemenuheader">MC tilbehør</li>
+        <li class="sidemenuheader">MC reservedele</li>
             <ul class="sidesubmenu">
-                <li><a href="#">Låse</a></li>
-                <li><a href="#">Headphones</a></li>
-                <li><a href="#">GPS</a></li>
-                <li><a href="#">Diverse</a></li>
+                <li><a href="#">Hjul</a></li>
+                <li><a href="#">Bremser</a></li>
+                <li><a href="#">Motor</a></li>
             </ul>
     </ul>
-    </section>
+    </nav>
     <section class="born46box">
     
     <h1>Born46 jacket</h1>
@@ -87,7 +86,7 @@
             <form class="amount">
                 <input type="number" name="amount" class="amount" value="1">
             </form>
-            <a href="contact.php" class="button buy">Læg i indkøbskurv</a>
+            <a href="#" class="button buy">Læg i indkøbskurv</a>
        
             
             </section>

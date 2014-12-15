@@ -8,12 +8,12 @@
     <main>
 	<img src="img/mcwebshop/sale.jpg" class="mcwebshop" alt="Christmas sale">
     
-    <section class="webshopmenu">
+    <nav class="webshopmenu">
         <h2>Varesortiment</h2>
     <ul class="sidemenu">
         <li class="sidemenuheader head">Beklædning</li>
             <ul class="sidesubmenu">
-                <li><a href="#"><strong>Jakker</strong></a></li>
+                <li><a href="#" class="active">Jakker</a></li>
                 <li><a href="#">Bukser</a></li>
                 <li><a href="#">Shirts</a></li>
                 <li><a href="#">Støvler</a></li>
@@ -25,15 +25,14 @@
                 <li><a href="#">Lys</a></li>
                 <li><a href="#">Fælge</a></li>
             </ul>
-        <li class="sidemenuheader">MC tilbehør</li>
+        <li class="sidemenuheader">MC reservedele</li>
             <ul class="sidesubmenu">
-                <li><a href="#">Låse</a></li>
-                <li><a href="#">Headphones</a></li>
-                <li><a href="#">GPS</a></li>
-                <li><a href="#">Diverse</a></li>
+                <li><a href="#">Hjul</a></li>
+                <li><a href="#">Bremser</a></li>
+                <li><a href="#">Motor</a></li>
             </ul>
     </ul>
-    </section>
+    </nav>
     <section class="productbox">
     
     <h1>MC beklædning - Jakker</h1>
@@ -43,47 +42,27 @@
         <h2>Mærke</h2>
         <input type="checkbox" name="Brand" value="All" checked><strong>Alle</strong>
         <br>
-        <input type="checkbox" name="Brand" value="Honda">Honda
+        <input type="checkbox" name="Brand" value="Born 46">Honda
         <br>
-        <input type="checkbox" name="Brand" value="Suzuki">Suzuki
-    </form>
-    <form class="shopcheckbox">
-        <h2>Farve</h2>
-        <input type="checkbox" name="Brand" value="All" checked><strong>Alle</strong>
+        <input type="checkbox" name="Brand" value="Brandon">Brandon
         <br>
-        <input type="checkbox" name="Brand" value="Honda">Sort
+        <input type="checkbox" name="Brand" value="CARLA">CARLA
         <br>
-        <input type="checkbox" name="Brand" value="Suzuki">Hvid
+        <input type="checkbox" name="Brand" value="COSMO II">COSMO II
         <br>
-        <input type="checkbox" name="Brand" value="Honda">Rød
-        <br>
-        <input type="checkbox" name="Brand" value="Suzuki">Blå
-        <br>
-        <input type="checkbox" name="Brand" value="Honda">Gul
-    </form>   
-    <form class="shopcheckbox">
-        <h2>Hestekræfter</h2>
-        <input type="checkbox" name="Brand" value="All" checked><strong>Alle</strong>
-        <br>
-        <input type="checkbox" name="Brand" value="Honda">0-50 hk
-        <br>
-        <input type="checkbox" name="Brand" value="Suzuki">50-100 hk
-        <br>
-        <input type="checkbox" name="Brand" value="Honda">100-150 hk
-        <br>
-        <input type="checkbox" name="Brand" value="Suzuki">150-200 hk
+        <input type="checkbox" name="Brand" value="Dainese">Dainese
     </form>   
     <form class="shopcheckbox">
         <h2>Pris</h2>
         <input type="checkbox" name="Brand" value="All" checked><strong>Alle</strong>
         <br>
-        <input type="checkbox" name="Brand" value="Honda">0-50.000 kr. 
+        <input type="checkbox" name="Brand" value="Honda">0-500 kr. 
         <br>
-        <input type="checkbox" name="Brand" value="Suzuki">50.000-100.000 kr.
+        <input type="checkbox" name="Brand" value="Suzuki">500-1.000 kr.
         <br>
-        <input type="checkbox" name="Brand" value="Honda">100.000-200.000 kr. 
+        <input type="checkbox" name="Brand" value="Honda">1.000-5.000 kr. 
         <br>
-        <input type="checkbox" name="Brand" value="Suzuki">200.000-400.000 kr.
+        <input type="checkbox" name="Brand" value="Suzuki">5.000 kr.+
     </form>   
     </section>
         
