@@ -6,8 +6,7 @@
 
 <?php include 'includes/header_inc.php'; ?>
 
-    <main>
-	<img src="img/mcwebshop/sale.jpg" class="mcwebshop" alt="Christmas sale">
+    <section class="main">
     
     <nav class="webshopmenu">
         <h2>Varesortiment</h2>
@@ -40,8 +39,8 @@
         
         <article class="productimg">
 
-        <a href="img/mcwebshop/jakke1.png" data-lightbox="Born46 jacket" data-title="Born46 jacket front"><img src="img/mcwebshop/jakke1.png" class="main" alt="Born46 jacket front"></a>
-        <a href="img/mcwebshop/jakke1.1.png" data-lightbox="Born46 jacket" data-title="Born46 jacket back"><img src="img/mcwebshop/jakke1.1.png" class="sub" alt="Born46 jacket back"></a>    
+			<a href="img/mcwebshop/jakke1.png" data-lightbox="Born46 jacket" data-title="Born46 jacket front"><img src="img/mcwebshop/jakke1.jpg" class="main-img" alt="Born46 jacket front"></a>
+			<a href="img/mcwebshop/jakke1.1.png" data-lightbox="Born46 jacket" data-title="Born46 jacket back"><img src="img/mcwebshop/jakke1.1.jpg" class="sub-img" alt="Born46 jacket back"></a>    
         </article>
         
         <article class="productinformation">
@@ -90,11 +89,11 @@
        
             
             </section>
-            <a href="mcwebshop.php" class="previous"><img src="img/arrowleft.png" alt="link to previous page"</a>        
+            <a href="mcwebshop.php" class="previous"><img src="img/arrowleft.png" alt="link to previous page"></a>        
             
         </section>
 
-	</main>
+	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
 	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>

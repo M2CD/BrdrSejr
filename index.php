@@ -28,9 +28,12 @@
 		</nav>
 		<article class="welcome">
 			<h2>Velkommen til Brdr. Sejr</h2>
-			<p>Vi står klar til at fortælle meget mere om dit næste køretøj, kom forbi og sæt dig til rette i netop din favorit-model og få en prøvetur.</p>
-			<p>Kom ind og se vore store udvalg SUZUKI og HONDA motercykler samt PGO scootere</p>
-			<p><strong>Hjælpen er lige om hjørnet</strong></p>
+			<p>Vi står klar til at hjælpe dig, med at finde dit nye køretøj!</p>
+			<p>Kom ind og se vores store udvalg af SUZUKI og HONDA motorcykler, 
+				samt KYMCO og PGO scootere.</p>
+			<p>Sæt dig til rette på netop din favorit model
+				og få en prøvetur.</p>
+			<p><strong class="help">Hjælpen er lige om hjørnet</strong></p>
 			
 			<?php include 'includes/social_inc.php'; ?>	
 		</article>

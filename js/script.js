@@ -18,7 +18,10 @@ $(document).ready(function(){
 	$('.menu-main li').on('click', function(){
 		$(this).children('ul.submenu').slideToggle(200);
 	});
-	
+	//MOBILE WEBSHOP MENU
+	$('.webshopmenu h2').on('click', function(){
+		$('ul.sidemenu').slideToggle(200);
+	});
 	// Facebook like box
 	(function(d, s, id) {
 		var js, fjs = d.getElementsByTagName(s)[0];

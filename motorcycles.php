@@ -15,51 +15,36 @@
 		</section> 
 
 		<section class="checkbox">
-		<form class="checkbox">
+		<form class="checkbox brand">
 			<h2>Mærke</h2>
-			<input type="checkbox" name="Brand" value="All" checked><strong>Alle</strong>
-			<br>
-			<input type="checkbox" name="Brand" value="Honda">Honda
-			<br>
-			<input type="checkbox" name="Brand" value="Suzuki">Suzuki
+			<input type="checkbox" name="option1" value="All" checked><strong>Alle</strong><br>
+			<input type="checkbox" name="option2" value="Honda">Honda<br>
+			<input type="checkbox" name="option3" value="Suzuki">Suzuki
 		</form>
-		<form class="checkbox">
+		<form class="checkbox color">
 			<h2>Farve</h2>
-			<input type="checkbox" name="Brand" value="All" checked><strong>Alle</strong>
-			<br>
-			<input type="checkbox" name="Brand" value="Honda">Sort
-			<br>
-			<input type="checkbox" name="Brand" value="Suzuki">Hvid
-			<br>
-			<input type="checkbox" name="Brand" value="Honda">Rød
-			<br>
-			<input type="checkbox" name="Brand" value="Suzuki">Blå
-			<br>
-			<input type="checkbox" name="Brand" value="Honda">Gul
+			<input type="checkbox" name="option1" value="All" checked><strong>Alle</strong><br>
+			<input type="checkbox" name="option2" value="Black">Sort<br>
+			<input type="checkbox" name="option3" value="White">Hvid<br>
+			<input type="checkbox" name="option4" value="Red">Rød<br>
+			<input type="checkbox" name="option5" value="Blue">Blå<br>
+			<input type="checkbox" name="option6" value="Yellow">Gul
 		</form>   
-		<form class="checkbox">
+		<form class="checkbox hp">
 			<h2>Hestekræfter</h2>
-			<input type="checkbox" name="Brand" value="All" checked><strong>Alle</strong>
-			<br>
-			<input type="checkbox" name="Brand" value="Honda">0-50 hk
-			<br>
-			<input type="checkbox" name="Brand" value="Suzuki">50-100 hk
-			<br>
-			<input type="checkbox" name="Brand" value="Honda">100-150 hk
-			<br>
-			<input type="checkbox" name="Brand" value="Suzuki">150-200 hk
+			<input type="checkbox" name="option1" value="All" checked><strong>Alle</strong><br>
+			<input type="checkbox" name="option2" value="0-50 HP">0-50 hk<br>
+			<input type="checkbox" name="option3" value="50-100 HP">50-100 hk<br>
+			<input type="checkbox" name="option4" value="100-150 HP">100-150 hk<br>
+			<input type="checkbox" name="option5" value="150-200 HP">150-200 hk
 		</form>   
-		<form class="checkbox">
+		<form class="checkbox price">
 			<h2>Pris</h2>
-			<input type="checkbox" name="Brand" value="All" checked><strong>Alle</strong>
-			<br>
-			<input type="checkbox" name="Brand" value="Honda">0-50.000 kr. 
-			<br>
-			<input type="checkbox" name="Brand" value="Suzuki">50.000-100.000 kr.
-			<br>
-			<input type="checkbox" name="Brand" value="Honda">100.000-200.000 kr. 
-			<br>
-			<input type="checkbox" name="Brand" value="Suzuki">200.000-400.000 kr.
+			<input type="checkbox" name="option1" value="All" checked><strong>Alle</strong><br>
+			<input type="checkbox" name="option2" value="0-50.000 kr.">0-50.000 kr.<br>
+			<input type="checkbox" name="option3" value="50.000-100.000 kr.">50.000-100.000 kr.<br>
+			<input type="checkbox" name="option4" value="100.000-200.000 kr.">100.000-200.000 kr.<br>
+			<input type="checkbox" name="option5" value="200.000-400.000 kr.">200.000-400.000 kr.
 		</form>   
 		</section><!-- close checkbox -->
 

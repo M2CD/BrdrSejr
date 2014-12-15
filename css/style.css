@@ -261,7 +261,7 @@ a.phone {
 	overflow:auto;
 	width:100%;
 	margin:0 auto;
-	padding:20px 2% 20px 2%;;
+	padding:20px 2% 40px 2%;
 	box-sizing:border-box;
 	background-color:#fff;
 	
@@ -315,18 +315,25 @@ article {
 	margin-bottom:30px;
 }
 aside.trustpilot a {
-	display:block;
+	display:inline-block;
 	text-decoration:none;
 	color:#444;
 	font-weight:500;
-	padding-bottom:43px;
+	padding:0 20px 43px 20px;
 	background-image:url(../img/index/trustpilot.png);
 	background-position:bottom center;
 	background-repeat:no-repeat;
 	margin:10px auto 0 auto;
 }
-@media screen and (min-width:1000px) {
-	.social aside.trustpilot {
+aside.facebook .fb-like-box {
+	width:240px;
+}
+@media screen and (min-width:700px) {
+	.social aside {
+		float:left;
+		width:50%;
+	}
+		.social aside.trustpilot {
 		text-align:right;
 	}
 	.social aside.trustpilot a {
@@ -337,25 +344,10 @@ aside.trustpilot a {
 		text-align:left;
 	}
 }
-@media screen and (min-width:700px) {
-	.social aside {
-		float:left;
-		width:50%;
-		text-align:center;
-	}
-}
 @media screen and (max-width:700px) {
 	.social aside {
 		width:100%;
 		text-align:center;
-	}
-	.social aside.facebook {
-		text-indent:30px;
-	}
-}
-@media screen and (max-width:400px) {
-	.welcome .social aside.facebook {
-		text-indent:18px;
 	}
 }
 /************************/
@@ -370,7 +362,7 @@ nav.circles {
 	overflow:visible;
 	position:relative;
 	text-align:center;
-	margin:40px auto 20px auto;
+	margin:40px auto 60px auto;
 }
 nav.circles a {
 	display:inline-block;
@@ -399,18 +391,18 @@ nav.circles a {
 		background-position:top center;
 		background-repeat:no-repeat;
 	}
-/* Social */
+/* welcome article and social */
 .welcome {
 	overflow:auto;
 }
-
-.welcome h2, .welcome p {
-	width:57%;
-	float:left;
+.welcome strong.help {
+	position:relative;
+	top:10px;
 }
 .welcome .social {
 	position:relative;
 	overflow:auto;
+	overflow-x: hidden;
 }
 .welcome .social aside {
 	float:none;
@@ -421,10 +413,21 @@ nav.circles a {
  .welcome .social aside.trustpilot a {
 	 background-position:center bottom;
  }
-@media screen and (max-width:800px) {
+@media screen and (min-width:800px) { /* Adjustments for desktop */
 	.welcome h2, .welcome p {
-		width:100%;
-		float:none;
+		width:60%;
+		float:left;
+	}
+	.welcome .social aside {
+		text-align:left;
+		margin-left:25%;
+	}
+	.welcome .social aside.trustpilot {
+		padding-left:10px;
+	}
+	.welcome .social aside.trustpilot a {
+		background-position-x:0px;
+		font-size:16px;
 	}
 }
 /* brands navigation */
@@ -533,11 +536,20 @@ img.new_store {
     width: 40%;
     padding: 50px 10px 0px 10px;
 }
-
+@media screen and (max-width:800px) {
+	article.history img {
+		width:100%;
+		margin-bottom:20px;
+		float:none;
+	}
+}
 /**** staff.php  ****/
-
+section.staff {
+	overflow:auto;
+}
 section.staff article {
     width: 50%;
+	min-width:300px;
     border-style: none;
     float: left;
 }
@@ -546,7 +558,7 @@ section.staff img {
     float: left
 }
 section.staff ol {
-	width:60%;
+	width:59%;
 	float:right;
 }
 
@@ -560,28 +572,34 @@ section.staff .role {
     font-weight: bold;
 }
 
-@media screen and (max-width:1000px) { /* Tablet and mobile view */
+@media screen and (max-width:500px) { /* Tablet and mobile view */
 	section.staff article {
 		width:100%;
-		float:none;
 	}
-	section.staff img {
-		width:50%;
+	section.staff article img {
+		width:40%;
+	}
+	section.staff article ol {
+		width:59%;
 	}
 }
 /***** motorcycles.php *****/
 section.checkbox {
     width: 60%;
-    height: 140px;
     margin: auto;
     padding: 3px;
-
+	text-align:center;
+	overflow:auto;
 }
 form.checkbox {
-    float: left;
-    width: 25%;
-    margin: 0;
-    font-size: 14px;
+	width:auto;
+	margin:10px 10px 0 10px;
+	font-size:0.8em;
+	display:inline-block;
+	vertical-align:top;
+	text-align:left;
+	line-height:1.5em;
+	float:none;
 }
 form.checkbox h2 {
     margin-bottom: 5px;
@@ -589,11 +607,19 @@ form.checkbox h2 {
 }
 
 form.checkbox input {
-    width: 10%;
-    height: 12px;
-    margin: 5px 0px 0px 0px;
+	width:auto;
+	height:1em;
+	font-size:1em;
+    margin: 5px 5px 0px 0px;
 }
-
+@media screen and (max-width:500px) { /* Adjustments for mobile */
+	section.checkbox {
+		width:100%;
+	}
+	form.checkbox {
+		width:43%;
+	}
+}
 section.mc_products {
     width: 100%;
     padding-top: 10px;
@@ -604,6 +630,7 @@ section.mc_products {
     background-color: #dbdee1;
     display: inline-block;
     width: 20%;
+	min-width:190px;
     margin: 7px 7px 30px 7px;
     border: 3px #000 solid;
     box-sizing: border-box;
@@ -633,6 +660,20 @@ section.mc_products {
 .mc_products a img {
     width: 100%;
 }
+@media screen and (max-width:1000px) { /* adjustments for tablet and mobile */
+	section.checkbox {
+		width:100%;
+	}
+	
+}
+@media screen and (max-width:400px) {
+	.mc_products a {
+		width:100%;
+		padding:10px;
+		margin:7px 0 30px 0;
+		border-sizing:border-box;
+	}
+}
 /***** SUZUKI-SFV650AL.php *****/
 section.mc_img {
     width: 50%;
@@ -658,42 +699,32 @@ section.mcInfo {
     padding-left: 2%;
 }
 
-.mcInfo h1 {
-    font-size: 44px;
-
-}
-.mcInfo h2 {
-
-    font-size: 16px;
-}
 .mcInfo h3 {
     margin: 25px 0px 2px 0px;
-    font-size: 14px;
+}
+.small {
+	font-size:0.4em;
+	position:relative;
+	top:-1.5em;
+	font-weight:300;
 }
 .mcInfo p {
-    font-size: 12px;
     line-height: 1.5;
-}
-
-.mcInfo ul {
-    margin-top: 25px;
-    font-size: 12px;
+	margin-bottom:20px;
 }
 
 a.button {
-    display: block;
-	width:140px;
-	height:30px;
+    display: inline-block;
 	background-color:#d20117;
 	color:#fff;
 	border:none;
 	border-radius:5px;
 	cursor:pointer;
-    font-size: 12px;
+    font-size: 0.8em;
     text-align: center;
     text-decoration: none;
-    padding-top: 10px;
-    margin: 20px 0px 0px 20px;
+    padding: 10px;
+	float:left;
 }
 	a.button:hover {
 		font-weight:bold;
@@ -702,9 +733,16 @@ a.button {
 a.previous {
     cursor:pointer;
     float: right;
-    
 }
-
+@media screen and (max-width:800px) {
+	section.mc_img {
+		width:100%;
+		padding-top:0px;
+	}
+	section.mcInfo {
+		width:100%;
+	}
+}
 /*****  contact.php *****/
 form {
 	width:350px;
@@ -789,6 +827,7 @@ img.mcwebshop {
 
 /*sidemenu*/
 nav.webshopmenu {
+	display:block;
     width: 18%;
     border: 1px #000 solid;
     display: inline-block;
@@ -802,9 +841,11 @@ nav.webshopmenu h2 {
     width: 100%;
     border-bottom: 1px #bfbfbf solid;
     padding: 5px;
+	text-align:center;
 }
 
 ul.sidemenu {
+	display:block;
     background-color: #272727;
     padding: 0px 10px 10px 10px;
 }
@@ -833,8 +874,12 @@ ul.sidesubmenu li {
     line-height: 1.3;
 }
 ul.sidesubmenu li a {
+	display:inline-block;
+	width:100%;
+	height:100%;
     text-decoration: none;
     color: #bfbfbf;
+	
 }
 
 ul.sidesubmenu li a:hover {
@@ -844,7 +889,26 @@ ul.sidesubmenu li a:hover {
 ul.sidesubmenu a.active {
     color: #FFF;
 }
-
+@media screen and (max-width:800px) {
+	nav.webshopmenu {
+		width:100%;
+		cursor:pointer;
+		margin-bottom:20px;
+		transition-duration: 0.1s;
+	}
+	nav.webshopmenu h2:before {
+		content:'Tryk her for '
+	}
+	nav.webshopmenu ul.sidemenu {
+		display:none;
+	}
+	nav.webshopmenu ul.sidemenu li {
+		font-size:1em;
+	}
+	nav.webshopmenu ul.sidemenu li a {
+		padding:5px 0 5px 0;
+	}
+}
 /*checkbox*/
 section.shopcheckbox {
     width: 80%;
@@ -885,7 +949,14 @@ section.webshopbox p {
     padding-top: 10px;
     font-size: 16px;
 }
-
+@media screen and (max-width:800px) { /* Adjustments for mobile and tablet */
+	section.webshopbox {
+		width:100%;
+		float:none;
+		padding:0;
+	}
+	
+}
 /*productbox*/
 section.productbox {
     width: 80%;
@@ -925,7 +996,19 @@ section.productbox p.price {
 section.productbox a:hover {
     background-color: #c4c0c0;
 }
-
+@media screen and (max-width:800px) { /* adjustments for mobile and tablet */
+	section.productbox {
+		width:100%;
+		background-color:transparent;
+	}
+	section.shopcheckbox {
+		width:100%;
+	}
+	form.shopcheckbox {
+		width:50%;
+		font-size:1em;
+	}
+}
 /***** born46Jacket.php *****/
 section.born46box {
     width: 80%;
@@ -941,20 +1024,21 @@ section.born46box h1 {
 
 article.productimg {
     width: 100%; 
+	overflow:auto;
     padding: 0% 2% 2% 2%;
     border: 0;
-    border-bottom: 5px #FFF solid;
 }
 
-article.productimg img.main-image {
-    width: 70%;
+article.productimg img.main-img {
+	width:75%;
     border-right: 2px #FFF solid;
+	float:left;
 }
 
-article.productimg img.sub-image {
+article.productimg img.sub-img {
     width: 20%;
-    float: right;
     border-bottom: 2px #FFF solid;
+	float:right;
 }
 
 article.productinformation {
@@ -1020,7 +1104,17 @@ a.button.buy {
     margin: 60px 0px 0px 0px;
 }
 
-
+@media screen and (max-width:800px) { /* adjustments for mobile and tablet */
+	section.born46box {
+		width:100%;
+		background-color:transparent;
+		padding:0;
+	}
+	article.productimg img.main-img, article.productimg img.sub-img {
+		width:50%;
+		
+	}
+}
 /************************/
 /******** FOOTER ********/
 /************************/
@@ -1038,4 +1132,15 @@ footer .open-hours {
 	display:inline-block;
 	margin:20px;
 	font-weight:500;
+	text-align:right;
+}
+	.open-hours.repairs {
+		position:relative;
+		top:-25px;
+	}
+@media screen and (max-width:500px) {
+	footer .open-hours {
+		width:96%;
+		margin:20px auto 20px auto;
+	}
 }

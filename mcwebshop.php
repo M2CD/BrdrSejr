@@ -5,11 +5,10 @@
 
 <?php include 'includes/header_inc.php'; ?>
 
-    <main>
-	<img src="img/mcwebshop/sale.jpg" class="mcwebshop" alt="Christmas sale">
+    <section class="main">
     
     <nav class="webshopmenu">
-        <h2>Varesortiment</h2>
+        <h2 class="webshopmenu-toggle">Varesortiment</h2>
     <ul class="sidemenu">
         <li class="sidemenuheader head">Beklædning</li>
             <ul class="sidesubmenu">
@@ -35,7 +34,7 @@
     </nav>
         
     <section class="webshopbox">
-        <h1>Velkommen til vores webshop</h1>
+        <h2>Velkommen til vores webshop</h2>
         <p>
 Vi stræber efter at blive en af nettets absolut største online forhandlere af alt inden for MC beklædning, udstyr og reservedele. Når du handler her hos os, er du dermed altid sikret et stort og velassorteret udvalg både med hensyn til mærker og forskellige modeller. Vi udvælger nøje alle produkter til vores webshop, så du som kunde er sikret en høj grad af kvalitet og sikkerhed. Alle vore valg baseres på en stor passion og ekspertise inden for MC.</p>
         <p>
@@ -49,7 +48,7 @@ Vi stræber efter at blive en af nettets absolut største online forhandlere af 
     </section>
 
         
-	</main>
+	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
 	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>

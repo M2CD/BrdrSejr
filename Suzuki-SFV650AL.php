@@ -22,8 +22,7 @@
         </section>
             
         <section class="mcInfo">
-        <h1>Suzuki SFV650AL</h1>
-        <h2>Suzuki / 500-749 ccm.</h2>
+			<h2>Suzuki SFV650AL<br><span class="small">Suzuki / 500-749 ccm.</span></h2>
         <ul>
             <li><strong>Mærke og model:</strong> Suzuki SFV650AL</li>  
             <li><strong>Farve:</strong> Hvid og blå</li>    
@@ -42,7 +41,7 @@
 
 Vi tilbyder i samarbejde med Honda på en attraktiv finansiering samt forsikringsordning med ekstra fordele for dig. Ring og hør nærmere.</p>          
     <a href="contact.php" class="button">Kontakt for køb</a>
-    <a href="motorcycles.php" class="previous"><img src="img/arrowleft.png" alt="link to previous page"</a>        
+    <a href="motorcycles.php" class="previous"><img src="img/arrowleft.png" alt="link to previous page"></a>        
         </section>
 	</section><!-- close main -->
 
