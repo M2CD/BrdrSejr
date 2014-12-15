@@ -98,40 +98,7 @@
 	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
-
-	<div id="fb-root"></div>
-	<script>
-		(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) return;
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=30274178883&version=v2.0";
-			fjs.parentNode.insertBefore(js, fjs);
-		}
-		(document, 'script', 'facebook-jssdk'));
-	</script>
-	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
-	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
-	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
 	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
-	<script>
-		//Run slider plugin
-		$(document).ready(function(){
-		  $('.slider .bxslider').bxSlider({
-			  video: true,
-			  auto: true
-		  });
-		  $('.reviews .bxslider').bxSlider({
-			  auto: true,
-			  randomStart: true,
-			  controls:false,
-			  pause:10000,
-			  speed:1000
-			  
-			  
-		  });
-		});
-	</script>
     <script src="plugins/lightbox/js/jquery-1.11.0.min.js"></script>
 	<script src="plugins/lightbox/js/lightbox.min.js"></script>
 </body>

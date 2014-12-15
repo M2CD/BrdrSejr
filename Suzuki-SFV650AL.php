@@ -44,13 +44,7 @@ Vi tilbyder i samarbejde med Honda på en attraktiv finansiering samt forsikring
     <a href="contact.php" class="button">Kontakt for køb</a>
     <a href="motorcycles.php" class="previous"><img src="img/arrowleft.png" alt="link to previous page"</a>        
         </section>
-<<<<<<< HEAD:mcInfo.php
 	</section><!-- close main -->
-=======
-        
-    
-	</main>
->>>>>>> 4d5e9ac0add289afc2f040faef0b1e07e918aa7b:Suzuki-SFV650AL.php
 
 <?php include 'includes/footer_inc.php'; ?>
 	<script src="plugins/lightbox/js/lightbox.min.js"></script>
