@@ -6,9 +6,9 @@
 	<section class="main">
 		<section class="slider showroom">
 			<ul class="bxslider">
-				<li><img src="http://coolwallpaperz.info/user-content/uploads/wall/o/27/honda-motorcycle-273535.jpg"</li>
-				<li><img src="http://nebula.wsimg.com/0cc2ce9b46a7c58b7b39a3ac23860091?AccessKeyId=E734EF3B005739B2C1A6&disposition=0&alloworigin=1"></li>
-				<li><img src="http://i.ytimg.com/vi/AMBSLVuuDbM/maxresdefault.jpg"</li>
+				<li><img src="img/repairshop/slider01.jpg" alt="Brdr. Sejrs værksted"></li>
+				<li><img src="img/repairshop/slider02.jpg" alt="Brdr. Sejrs værksted"></li>
+				<li><img src="img/repairshop/slider03.jpg" alt="row of tires"></li>
 			</ul>
 		</section>
 		<article>

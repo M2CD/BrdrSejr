@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2 {font-weight:700; font-size:2.5em}
 h3 {font-weight:700; font-size:1.8em;margin-top:15px;}
+h4 {font-weight:700; font-size:1.5em;}
 
 p {
 	font-size:1em;
@@ -49,8 +50,9 @@ a.phone {
 	color:#333;
 }
 @media screen and (max-width:500px) {
-	h2 {font-size:2em}
+	h2 {font-size:1.8em}
 	h3 {font-size:1.5em}
+	h4 {font-size:1.2em}
 }
 /******************/
 /***** HEADER *****/
@@ -128,10 +130,9 @@ a.phone {
 	header .logo {
 		display:block;
 		position:absolute;
-		height:50px;
+		height:60px;
 		width:33%;
 		text-align:center;
-		padding:5px;
 		left:33%;
 		
 	}
@@ -346,7 +347,6 @@ aside.facebook .fb-like-box {
 }
 @media screen and (max-width:700px) {
 	.social aside {
-		width:100%;
 		text-align:center;
 	}
 }

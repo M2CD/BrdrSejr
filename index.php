@@ -17,7 +17,9 @@
 	<section class="slider theater">
 		<ul class="bxslider">
 			<li><iframe width="1920" height="1080" src="//www.youtube.com/embed/ZO8PvISNUbA?rel=0&amp;controls=1&amp;showinfo=0" allowfullscreen></iframe></li>
-			<li><img src="img/index/slider01.jpg" alt="temporary slider image"></li>
+			<li><img src="img/index/slider01.jpg" alt="Brdr Sejr's butiks facade"></li>
+			<li><img src="img/index/slider02.jpg" alt="motorcycle rider"></li>
+			<li><a href="mcwebshop.php"><img src="img/index/slider03.jpg" alt="dainese motorcycle gear"></a></li>
 		</ul>
 	</section>
 	<section class="main">

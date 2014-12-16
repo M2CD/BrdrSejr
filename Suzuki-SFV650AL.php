@@ -11,7 +11,11 @@
     
             <section class="mc_img">
 
-       <a href="img/nyemotorcykler/mcinfo/suzukiimg1.jpg" data-lightbox="Honda SX 104" data-title="Suzuki SFV650AL"><img src="img/nyemotorcykler/mcinfo/suzukiimg1.jpg" alt="Honda mc"></a>
+		<a href="img/nyemotorcykler/mcinfo/suzukiimg1.jpg"
+		  data-lightbox="Honda SX 104" 
+		  data-title="Suzuki SFV650AL">
+		   <img src="img/nyemotorcykler/mcinfo/suzukiimg1.jpg" alt="Honda mc">
+		</a>
             
         <a href="img/nyemotorcykler/mcinfo/suzukiimg2.jpg" data-lightbox="Honda SX 104" data-title="Suzuki SFV650AL"><img src="img/nyemotorcykler/mcinfo/suzukiimg2.jpg" class="mcimg" alt="Honda mc"></a>
             
