@@ -8,9 +8,9 @@
     <section class="main">
 		<section class="slider showroom">
 			<ul class="bxslider">
-				<li><img src="img/nyemotorcykler/DSC_4073.JPG"></li>
-				<li><img src="img/nyemotorcykler/DSC_4098.JPG"></li>
-				<li><img src="img/nyemotorcykler/DSC_4166.JPG"></li>
+				<li><img src="img/nyemotorcykler/DSC_4073.JPG" alt="Motorcykel"></li>
+				<li><img src="img/nyemotorcykler/DSC_4098.JPG" alt="Brdr Sejr butik facade"></li>
+				<li><img src="img/nyemotorcykler/DSC_4166.JPG" alt="motorcykel"></li>
 			</ul>
 		</section> 
 
@@ -200,7 +200,7 @@
 	<script src="plugins/bxslider/js/jquery.bxslider.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.easing.1.3.js" type="text/javascript"></script>
 	<script src="plugins/bxslider/js/jquery.fitvids.js" type="text/javascript"></script>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
 	<script>
 		//Run slider plugin
 		$(document).ready(function(){

@@ -10,26 +10,29 @@
     <nav class="webshopmenu">
         <h2>Varesortiment</h2>
     <ul class="sidemenu">
-        <li class="sidemenuheader head">Beklædning</li>
+        <li class="sidemenuheader head">Beklædning
             <ul class="sidesubmenu">
-                <li><a href="#" class="active">Jakker</a></li>
+                <li><a href="jackets.php" class="active">Jakker</a></li>
                 <li><a href="#">Bukser</a></li>
                 <li><a href="#">Shirts</a></li>
                 <li><a href="#">Støvler</a></li>
             </ul>
-        <li class="sidemenuheader">MC udstyr</li>
+		</li>
+        <li class="sidemenuheader">MC udstyr
             <ul class="sidesubmenu">
                 <li><a href="#">Sidespejle</a></li>
                 <li><a href="#">Udstødning</a></li>
                 <li><a href="#">Lys</a></li>
                 <li><a href="#">Fælge</a></li>
             </ul>
-        <li class="sidemenuheader">MC reservedele</li>
+		</li>
+        <li class="sidemenuheader">MC reservedele
             <ul class="sidesubmenu">
                 <li><a href="#">Hjul</a></li>
                 <li><a href="#">Bremser</a></li>
                 <li><a href="#">Motor</a></li>
             </ul>
+		</li>
     </ul>
     </nav>
     <section class="productbox">
@@ -99,6 +102,6 @@
 	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
-<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>

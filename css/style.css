@@ -23,9 +23,12 @@
 h1, h2, h3, h4, h5, h6 {
 	font-family:'Alegreya Sans SC';
 }
-h2 {font-weight:700; font-size:2.5em}
+h1 {font-weight:700; font-size:3em;margin:0;}
+h2 {font-weight:700; font-size:2.5em;margin:15px 0 0 0;}
 h3 {font-weight:700; font-size:1.8em;margin-top:15px;}
-h4 {font-weight:700; font-size:1.5em;}
+h4 {font-weight:700; font-size:1.5em;margin:10px 0 0 0;}
+h5 {font-weight:700;font-size:1.2em;margin:10px 0 0 0;}
+h6 {font-weight:500;font-size:1.2em;margin:10px 0 0 0;}
 
 p {
 	font-size:1em;
@@ -47,6 +50,11 @@ a.inactive {
 	cursor:default;
 }
 a.phone {
+	color:#333;
+	font-weight:500;
+}
+a.address {
+	font-weight:500;
 	color:#333;
 }
 @media screen and (max-width:500px) {
@@ -80,6 +88,7 @@ a.phone {
 		height:90px;
 		top:5px;
 		left:5px;
+		z-index:15;
 	}
 		header .logo img {
 			height:100%;
@@ -461,6 +470,9 @@ blockquote {
 	background-image:url(../img/quote.png);
 	background-position: top left;
 	background-repeat:no-repeat;
+	min-height:300px;
+	padding:20px;
+	box-sizing:border-box;
 }
 blockquote h2 {
 	text-align:center;
@@ -471,6 +483,7 @@ blockquote p {
 	font-size:1em;
 	text-align:center;
 	line-height:25px;
+	height:100%;
 }
 blockquote p q {
 	font-style:italic;
@@ -490,7 +503,6 @@ blockquote .bx-wrapper .bx-viewport {
 }
 @media screen and (min-width:1000px){ /* desktio view */
 	blockquote {
-		min-height:300;
 		background-image:url(../img/quote.png), url(../img/quote2.png);
 		background-position: top left, bottom right;
 		background-repeat:no-repeat;
@@ -713,7 +725,7 @@ section.mcInfo {
 	margin-bottom:20px;
 }
 
-a.button {
+.button {
     display: inline-block;
 	background-color:#d20117;
 	color:#fff;
@@ -726,7 +738,7 @@ a.button {
     padding: 10px;
 	float:left;
 }
-	a.button:hover {
+	.button:hover {
 		font-weight:bold;
 	}
 
@@ -798,9 +810,7 @@ form .form-submit {
 }
 }
 .contact h3 {
-	font-size {
-		1.5em;
-	}
+	font-size:1.5em;
 }
 .contact h3 {
 	font-size:1.5em;
@@ -1143,4 +1153,32 @@ footer .open-hours {
 		width:96%;
 		margin:20px auto 20px auto;
 	}
+}
+footer a.address, footer a.phone {
+	color:#ccc;
+	font-weight:300;
+}
+/*******************/
+/*    Styleguide   */
+/*******************/
+@media screen and (min-width:1080px) { /* should only show when it can be in the margin i.e. a hidden button */
+	.sg-link {
+		display:block;
+		height:40px;
+		width:40px;
+		position:fixed;
+		top:100px;
+		left:0;
+	}
+}
+.styleguide article {
+	padding:40px;
+	border:1px solid #ccc;
+}
+.sg-title {
+	border-bottom:1px solid #333;
+	margin-bottom:10px;
+}
+.styleguide .button {
+	float:none;
 }

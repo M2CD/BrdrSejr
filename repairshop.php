@@ -10,10 +10,11 @@
 				<li><img src="img/repairshop/slider02.jpg" alt="Brdr. Sejrs værksted"></li>
 				<li><img src="img/repairshop/slider03.jpg" alt="row of tires"></li>
 			</ul>
-		</section>
+		</section><!-- close slider -->
 		<article>
 			<h2>Vores værksted</h2>
-			<p>På værkstedet får du den bedste service af vores dygtige mekanikere, der har mange års erfaring!</p>
+			<p>På værkstedet får du den bedste service af vores dygtige mekanikere, der har mange års erfaring! Vi yder service og reparerer både motorcykler og scootere, af alle mærker.</p>
+			<p>Så kom ind og hør nærmere, eller ring til os. Vi er nemlig altid klar på, at hjælpe dig, uanset hvilket problem du står med.</p>
 			<h3>Værkstedets åbningstider</h3>
 			<p>Mandag - fredag: 9:00 til 17:00</p>
 			<h3>Kontakt værkstedet</h3>

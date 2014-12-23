@@ -11,26 +11,29 @@
     <nav class="webshopmenu">
         <h2>Varesortiment</h2>
     <ul class="sidemenu">
-        <li class="sidemenuheader head">Beklædning</li>
+        <li class="sidemenuheader head">Beklædning
             <ul class="sidesubmenu">
-                <li><a href="#"><strong>Jakker</strong></a></li>
+                <li><a href="jackets.php">Jakker</a></li>
                 <li><a href="#">Bukser</a></li>
                 <li><a href="#">Shirts</a></li>
                 <li><a href="#">Støvler</a></li>
             </ul>
-        <li class="sidemenuheader">MC udstyr</li>
+		</li>
+        <li class="sidemenuheader">MC udstyr
             <ul class="sidesubmenu">
                 <li><a href="#">Sidespejle</a></li>
                 <li><a href="#">Udstødning</a></li>
                 <li><a href="#">Lys</a></li>
                 <li><a href="#">Fælge</a></li>
             </ul>
-        <li class="sidemenuheader">MC reservedele</li>
+		</li>
+        <li class="sidemenuheader">MC reservedele
             <ul class="sidesubmenu">
                 <li><a href="#">Hjul</a></li>
                 <li><a href="#">Bremser</a></li>
                 <li><a href="#">Motor</a></li>
             </ul>
+		</li>
     </ul>
     </nav>
     <section class="born46box">
@@ -46,15 +49,17 @@
         <article class="productinformation">
             <h2>Beskrivelse</h2>        
             <ul class="description">
-                <li>Ydremateriale:</li>
+                <li>Ydremateriale:
                     <ul>
                         <li>Blødt okseskind</li>
                     </ul>
-                <li>Indenfor:</li>
+				</li>
+                <li>Indenfor:
                     <ul>
                         <li>100% polyester</li>
                     </ul>
-                <li>Egenskaber:</li>
+				</li>
+                <li>Egenskaber:
                     <ul>
                         <li>Justeringsmulighed</li>
                         <li>2 ydrelommer</li>
@@ -63,14 +68,17 @@
                         <li>Skuldre- og albuebeskyttere</li>
                         <li>Rygbeskytter</li>
                     </ul>
-                <li>Størrelser:</li>
+				</li>
+                <li>Størrelser:
                     <ul>
                         <li>S, M, L, XL, XXL</li>
                     </ul>
-                <li>Farver:</li>
+				</li>
+                <li>Farver:
                     <ul>
                         <li>Sort</li>
                     </ul>
+				</li>
             </ul>
             </article>
             
@@ -96,7 +104,7 @@
 	</section><!-- close main -->
 
 <?php include 'includes/footer_inc.php'; ?>
-	<script src="js/script.js" type="text/javascript" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
     <script src="plugins/lightbox/js/jquery-1.11.0.min.js"></script>
 	<script src="plugins/lightbox/js/lightbox.min.js"></script>
 </body>

@@ -41,9 +41,9 @@
         </ul>
         <h3>Yderligere information:</h3>
 
-<p>Honda CBR600F er en moderne klassiker som altid har været yderst populær i Danmark, og savnet i den korte periode hvor den ikke var på programmet. Den helt nye udgave byder som noget helt nyt også på et kombineret ABS bremsesystem, så denne motorcykel både er sikker og sjov.<br>
+<p>Suzuki SFV650AL er en moderne klassiker som altid har været yderst populær i Danmark, og savnet i den korte periode hvor den ikke var på programmet. Den helt nye udgave byder som noget helt nyt også på et kombineret ABS bremsesystem, så denne motorcykel både er sikker og sjov.<br>
 
-Vi tilbyder i samarbejde med Honda på en attraktiv finansiering samt forsikringsordning med ekstra fordele for dig. Ring og hør nærmere.</p>          
+Vi tilbyder i samarbejde med Suzuki på en attraktiv finansiering samt forsikringsordning med ekstra fordele for dig. Ring og hør nærmere.</p>          
     <a href="contact.php" class="button">Kontakt for køb</a>
     <a href="motorcycles.php" class="previous"><img src="img/arrowleft.png" alt="link to previous page"></a>        
         </section>

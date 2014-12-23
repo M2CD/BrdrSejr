@@ -10,3 +10,4 @@
 		<a href="mcwebshop.php" class="webshop">Køb Udstyr</a>
 		<?php include 'includes/menu_inc.php'; ?>
 	</header>
+<a href="styleguide.php" class="sg-link"></a>

@@ -6,16 +6,17 @@
 	<section class="main">
 		<article class="contact">
 			<h2>Kontakt os</h2>
-			<p>Drejer det sig om en hastesag bedes du kontakte os pr. telefon på <a href="tel:86163766" class="phone">8616 3766</a> eller <a href="tel:86163396" class="phone">8616 3396</a> eller komme ned i butikken på: <address>Randersvej 36, 8200 Aarhus N</address></p>
+			<p>Drejer det sig om en hastesag bedes du kontakte os pr. telefon på <a href="tel:86163766" class="phone">8616 3766</a> eller <a href="tel:86163396" class="phone">8616 3396</a> eller komme ned i butikken på: <a href="http://maps.apple.com/?q=Brdr+Sejr+Aarhus" target="_blank" class="address">Randersvej 36, 8200 Aarhus N</a></p>
 			<h3>Butikkens åbningstider</h3>
-			<ol>1. Oktober til 1. Marts:
+			<h4>1. Oktober til 1. Marts:</h4>
+			<ul>
 				<li>Mandag - fredag: 10:00 til 17:00</li>
 				<li>Lørdag: 10:00 til 12:00</li>
-			</ol>
+			</ul>
 			<h3>Værkstedets åbningstider</h3>
-			<ol>
+			<ul>
 				<li>Mandag - fredag: 9:00 til 17:00</li>
-			</ol>
+			</ul>
 		</article>
 		<section class="contact-form result">
 			<h3>Tak <?php echo $_POST['name'] ?>. Din besked er blevet sendt</h3>
